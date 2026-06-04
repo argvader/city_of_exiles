@@ -2,8 +2,10 @@
 title: "Home"
 ---
 
-# The Shattered Realm
+# City of Exiles
 
-Welcome to the session archive and campaign wiki for *The Shattered Realm*.
+Welcome to the session archive and campaign wiki for *City of Exiles*.
 
-*No sessions recorded yet.*
+| # | Session | Date |
+| --- | --- | --- |
+| 10 | [Test of the Scribe](sessions/2026-06-04.md) | June 4, 2026 |

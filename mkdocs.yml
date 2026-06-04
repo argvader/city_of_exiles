@@ -1,4 +1,4 @@
-site_name: "The Shattered Realm"
+site_name: "City of Exiles"
 site_url: "https://argvader.github.io/city_of_exiles/"
 theme:
   name: material
@@ -20,6 +20,8 @@ theme:
 
 nav:
   - Home: index.md
+  - Sessions:
+    - sessions/2026-06-04.md
   - Wiki:
     - Player Characters:
       - wiki/pcs/dungeon-master.md

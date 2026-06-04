@@ -1,0 +1,26 @@
+site_name: "The Shattered Realm"
+site_url: "https://argvader.github.io/city_of_exiles/"
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+  font:
+    text: Noto Serif
+    code: Fira Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Wiki:
+    - Player Characters:
+      - wiki/pcs/dungeon-master.md
+      - wiki/pcs/seraphina-voss.md

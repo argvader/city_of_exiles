@@ -3,11 +3,11 @@ site_url: "https://argvader.github.io/city_of_exiles/"
 theme:
   name: material
   palette:
-    - scheme: slate
-      primary: deep purple
-      accent: purple
+    - scheme: default
+      primary: amber
+      accent: deep orange
   font:
-    text: Noto Serif
+    text: Marcellus
     code: Fira Mono
   features:
     - navigation.instant
@@ -23,7 +23,7 @@ nav:
   - Sessions:
     - sessions/2026-06-04.md
     - sessions/2026-06-04.md
+    - sessions/2026-06-04.md
   - Wiki:
     - Player Characters:
-      - wiki/pcs/dungeon-master.md
       - wiki/pcs/seraphina-voss.md

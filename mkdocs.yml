@@ -20,13 +20,16 @@ theme:
 
 nav:
   - Home: index.md
-  - Sessions:
-    - sessions/2026-06-04.md
-    - sessions/2026-06-04.md
-  - Wiki:
-    - Player Characters:
-      - wiki/pcs/seraphina-voss.md
-    - NPCs:
-      - wiki/npcs/the-enigmatic-ally.md
-    - Locations:
-      - wiki/locations/labyrinthine-archives.md
+  # Add each new session under Sessions as it is published, e.g.:
+  # - Sessions:
+  #     - "Session One (2026-06-04)": sessions/2026-06-04.md
+  # Add wiki entries under their category as they are created, e.g.:
+  # - Wiki:
+  #     - Player Characters:
+  #         - wiki/pcs/some-pc.md
+  #     - NPCs:
+  #         - wiki/npcs/some-npc.md
+  #     - Factions:
+  #         - wiki/factions/some-faction.md
+  #     - Locations:
+  #         - wiki/locations/some-location.md

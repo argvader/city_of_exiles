@@ -20,7 +20,7 @@
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/logo.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
@@ -51,12 +51,17 @@
       
     
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   </head>
   
   
@@ -67,7 +72,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="deep-orange">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="amber">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -94,8 +99,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="City of Exiles" class="md-header__button md-logo" aria-label="City of Exiles" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,7 +129,21 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="deep-orange"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="amber"  aria-label="Switch to sandstone (light)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to sandstone (light)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="deep-orange"  aria-label="Switch to basalt (dark)"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to basalt (dark)" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
     
   
 </form>
@@ -204,8 +222,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="City of Exiles" class="md-nav__button md-logo" aria-label="City of Exiles" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/logo.svg" alt="logo">
 
     </a>
     City of Exiles
@@ -398,6 +415,17 @@
     <span class="md-ellipsis">
       
         Open Threads
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-scene" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Scene
       
     </span>
   </a>
@@ -1375,6 +1403,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#the-scene" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Scene
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1392,57 +1431,63 @@
 
 
 
-<h1 id="session-one-the-tidewater-amulet">Session One — The Tidewater Amulet</h1>
+<h1 id="session-one-the-tidewater-amulet">Session One — The Tidewater Amulet<a class="headerlink" href="#session-one-the-tidewater-amulet" title="Permanent link">&para;</a></h1>
 <p><em>July 3, 2026</em></p>
-<h2 id="overview">Overview</h2>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>With <a href="../../wiki/locations/utsa-paradisa/">Utsa Paradisa</a> still reeling from a
-citywide assault, the party fought through the Slums and the Jade District to
-beat back an invasion of fey and elemental creatures. They saved a district and a
-family — but arrived at <a href="../../wiki/locations/the-water-temple/">the Water Temple</a>
-too late to stop the abduction of the water priestess
+citywide assault, the party fought through the Slums and the Jade District to beat
+back an invasion of fey and elemental creatures. They saved a district and a family
+— but arrived at <a href="../../wiki/locations/the-water-temple/">the Water Temple</a> too late
+to stop the abduction of the water priestess
 <a href="../../wiki/npcs/nybora-tidewater/">Nybora Tidewater</a>, who left behind a talking
 amulet that would set the party's next quest in motion.</p>
-<h2 id="key-events">Key Events</h2>
+<h2 id="key-events">Key Events<a class="headerlink" href="#key-events" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Aftermath and triage.</strong> In the ransacked <a href="../../wiki/locations/the-bazaar/">Bazaar</a>,
   the party freed <a href="../../wiki/npcs/major-jamieson/">Major Jamieson</a>, a guard the
   suture flies had stitched together — hands sewn to his thighs, lips sewn shut —
-  through a tense run of medicine checks and healing.</li>
+  through a tense run of medicine checks and healing. The Major swore that his
+  fellow guard <a href="../../wiki/npcs/charles-gambit/">Charles Gambit</a>, who fled the fight,
+  would be scrubbing his office when it was over.</li>
 <li><strong>Choosing the fight.</strong> The Griffin rider <a href="../../wiki/npcs/cerus/">Cerus</a> flew an
   aerial recon (natural 20) and laid out the city's wounds: the
   <a href="../../wiki/locations/the-university/">University</a> held, the
   <a href="../../wiki/locations/the-slums/">Slums</a> were battered, and the
-  <a href="../../wiki/locations/the-jade-district/">Jade District</a> — home of the Griffins
-  and the Water Temple — was under the heaviest attack. The party marched on the
-  Slums, drawn by <a href="../../wiki/pcs/behnsun-payne/">Behnsun Payne</a>'s orphanage and
+  <a href="../../wiki/locations/the-jade-district/">Jade District</a> — home of the Griffins and
+  the Water Temple — was under the heaviest attack. Cerus peeled off to defend her
+  Griffins; the party marched on the Slums, drawn by
+  <a href="../../wiki/pcs/behnsun-payne/">Behnsun Payne</a>'s orphanage and
   <a href="../../wiki/pcs/adarius/">Adarius</a>'s parents.</li>
 <li><strong>The battle for the Slums.</strong> Amid the tortoise-shell homes, the party fought
-  fire mephits, suture flies, and a thirster. Adarius's father was badly burned
-  but survived; <a href="../../wiki/npcs/the-dragonborn-band/">the Dragonborn Band</a> — old
-  rivals from a chariot race — arrived to buoy the party with inspiring music and
-  heal the wounded afterward.</li>
+  magma mephits, suture flies, and a thirster. A mephit's breath cone caught
+  Adarius's father — critically — and burned half his face, but the hardy man
+  survived. <a href="../../wiki/npcs/patty-greenfoot/">Patty Greenfoot</a> and
+  <a href="../../wiki/npcs/the-dragonborn-band/">the Dragonborn Band</a> — old rivals from a
+  chariot race — turned up to buoy the party with inspiring music.</li>
 <li><strong>The Water Temple falls.</strong> Pressing on to the Jade District, the party found
   suture flies sewing <a href="../../wiki/npcs/nybora-tidewater/">Nybora Tidewater</a>'s mouth
   and hands shut. Despite the veteran commander
   <a href="../../wiki/npcs/dalen-marr/">Dalen Marr</a>'s stand, the flies lifted the priestess
   and carried her out of the city.</li>
-<li><strong>The dropped clue.</strong> As she was flown away, Nybora tore a gold teardrop amulet
-  from her chest and dropped it onto <a href="../../wiki/pcs/prance-galavant/">Prance Galavant</a>'s
-  ear. Adarius's <em>identify</em> revealed "something trapped inside" — a fey being that
-  rejected him and chose Prance instead: "You must save my daughter." Prance took
-  up the amulet and swore the oath.</li>
+<li><strong>The dropped clue.</strong> As she was flown away, Nybora left behind a gold teardrop
+  amulet. Adarius's <em>identify</em> revealed "something trapped inside" — a fey being
+  that rejected him outright ("you were not chosen") and turned to
+  <a href="../../wiki/pcs/prance-galavant/">Prance Galavant</a>: "You will do. You must save my
+  daughter." Prance swore an oath to the
+  <a href="../../wiki/npcs/the-amulet-speaker/">Amulet Speaker</a>, put the amulet on, and felt
+  "a spark of magic click."</li>
 </ul>
-<h2 id="memorable-moments">Memorable Moments</h2>
+<h2 id="memorable-moments">Memorable Moments<a class="headerlink" href="#memorable-moments" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Death from above.</strong> Twice the party stopped to <em>build a catapult mid-battle</em>
-  and launch <a href="../../wiki/pcs/krum/">Krum</a> across the field — the hardy dwarf
-  crashing down on fire mephits and driving them so far into the earth their
-  death-bursts barely scratched him.</li>
+<li><strong>Death from above.</strong> The party spent whole turns building a catapult mid-battle —
+  a natural-20 contraption — and used it twice: first flinging Prance across the
+  field, then launching <a href="../../wiki/pcs/krum/">Krum</a> some 80 feet through the air to
+  crash down on a fire mephit, driving both daggers through it and squashing the
+  creature into the cracked earth.</li>
+<li><strong>A 39-damage flourish.</strong> Prance's brutal-critical longsword swing, delivered
+  mid-monologue — "only when it's most dramatic."</li>
 <li><strong>"Healing is my game."</strong> Behnsun Payne introduced himself to the freed Major
-  Jamieson in rhyme, then later froze a fire mephit solid with a <em>chromatic orb</em>
-  of cold so its explosion shattered harmlessly in the ice.</li>
-<li><strong>A 39-damage flourish.</strong> Prance's brutal-critical longsword swing — delivered
-  mid-monologue, "only when it's most dramatic."</li>
+  Jamieson in rhyme, then later froze a fire mephit with a <em>chromatic orb</em> of cold.</li>
 <li><strong>Talking to furniture.</strong> <a href="../../wiki/pcs/fizz/">Fizz</a> held his amulet
   <a href="../../wiki/npcs/frederick/">Frederick</a> up to the new one and "made them kiss,"
   drawing drops of water from the teardrop — and learned that he, too, had been
@@ -1450,20 +1495,44 @@ amulet that would set the party's next quest in motion.</p>
 <li><strong>The world's grumpiest quest-giver.</strong> The amulet snapping at Adarius: "I have
   feelings, and my daughter was just kidnapped. I'm having a bad day."</li>
 </ul>
-<h2 id="open-threads">Open Threads</h2>
+<h2 id="open-threads">Open Threads<a class="headerlink" href="#open-threads" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Where is Nybora Tidewater?</strong> The suture flies carried her out of the city
   alive. Who sent them to silence a water-priestess — and to what end?</li>
 <li><strong>The amulet's nature.</strong> <a href="../../wiki/npcs/the-amulet-speaker/">The Amulet Speaker</a>
   claims to be Nybora's father, trapped in the teardrop. What is he, how was he
   bound, and what does it mean that both Prance and Fizz have been "chosen"?</li>
-<li><strong>Two chosen, two amulets.</strong> Frederick named the Tidewater spirit a "brother."
-  How are the two fey vessels — and their bearers — connected?</li>
+<li><strong>Two chosen, two amulets.</strong> Frederick named the Tidewater spirit a "brother" but
+  admitted he isn't sure he trusts him. How are the two fey vessels — and their
+  bearers — connected?</li>
 <li><strong>The city's attackers.</strong> The fey and elemental creatures were beaten back "for
   now," but no one learned who unleashed them.</li>
-<li><strong>Adarius's dissent.</strong> Adarius still wants to sell the amulet and has rolled his
-  way to genuine conviction that it's bad news. That fault line isn't resolved.</li>
+<li><strong>Adarius's dissent.</strong> Adarius rolled his way to genuine conviction that the
+  amulet is bad news and still wants to sell it. That fault line isn't resolved.</li>
 </ul>
+<h2 id="the-scene">The Scene<a class="headerlink" href="#the-scene" title="Permanent link">&para;</a></h2>
+<p><img alt="Krum, catapulted, driving both daggers into a fire mephit" src="../../assets/sessions/2026-07-03.png" /></p>
+<p>The catapult had already thrown Prance once, and the party — half-mad on the sheer
+audacity of it — had built the thing back up for another shot. Krum climbed into the
+sling without a word of complaint, because a dwarf does not complain about being
+turned into ammunition; a dwarf simply checks that his daggers are loose in their
+sheaths. Below him the Slums burned in patches, the hollowed tortoise-shell homes
+throwing long shadows across the dust, and out among them a fire mephit hovered on
+crackling wings, chuckling that small fiendish chuckle that had been fraying
+everyone's nerves for an hour. "On three," Fizz called, bracing the frame. Krum did
+not wait for three.</p>
+<p>He went up and the world went quiet. For one long breath there was only wind and the
+thump of his own heart and the whole ruined district tilting beneath him — eighty
+feet of desert air with a burning imp at the bottom of it. The mephit looked up a
+half-second too late. It had time to widen its ember eyes and no time at all to move.</p>
+<p>Krum came down like a dropped anvil with a grudge. Both daggers led the way, punched
+to the hilt through the creature's molten hide, and his full dwarven weight followed
+after — driving the thing straight down, flattening it into the cracked earth in a
+spray of sparks and a smell of burnt tar. The fire went out of it all at once, snuffed
+under a hundred and some pounds of rogue. Krum wrenched his blades free, stood up in
+the little crater he'd made, and dusted off his shoulders while the embers settled
+around his boots. Somewhere behind him, Prance was already announcing that <em>this</em>,
+too, would make a magnificent verse.</p>
 
 
 

@@ -1,11 +1,28 @@
 site_name: "City of Exiles"
 site_url: "https://argvader.github.io/city_of_exiles/"
+
 theme:
   name: material
+  custom_dir: overrides
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  icon:
+    logo: material/eye-outline
   palette:
+    # Dark "basalt & gold" — default.
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to sandstone (light)
+    # Light "sandstone" scheme.
     - scheme: default
       primary: amber
       accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to basalt (dark)
   font:
     text: Marcellus
     code: Fira Mono
@@ -17,6 +34,21 @@ theme:
     - navigation.top
     - toc.follow
     - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+hooks:
+  - hooks/wiki_images.py
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
 
 nav:
   - Home: index.md

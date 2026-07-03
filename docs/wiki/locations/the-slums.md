@@ -23,7 +23,7 @@ common folk who make up [Fizz](../pcs/fizz.md)'s fanbase.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — The party chose to
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — The party chose to
   defend the Slums first, battling fire mephits, suture flies, and a thirster
   amid the tortoise shells. [Adarius](../pcs/adarius.md)'s father was gravely
   burned but survived; [the Dragonborn Band](../npcs/the-dragonborn-band.md)

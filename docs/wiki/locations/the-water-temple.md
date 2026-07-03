@@ -12,7 +12,7 @@ it is among the most vital sites in Utsa Paradisa.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — The session's climactic
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — The session's climactic
   battle. The party arrived — famously, by catapulting one another across the
   battlefield — to find suture flies stitching Nybora's mouth and hands shut. The
   guard commander [Dalen Marr](../npcs/dalen-marr.md) held the line, but the

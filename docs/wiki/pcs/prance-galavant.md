@@ -27,7 +27,7 @@ oath to rescue the priestess, feeling "a spark of magic click" as he put it on.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Requested the aerial
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Requested the aerial
   recon that set the party's course, delivered a 39-damage brutal-critical
   smashing hit in the Slums, was catapulted (with the rest) into the temple
   fight, and ended the night bound by oath to the amulet's quest.

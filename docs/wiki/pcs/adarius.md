@@ -26,7 +26,7 @@ Adarius is also said to have connections at [the University](../locations/the-un
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Cast *identify* on the
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Cast *identify* on the
   teardrop amulet dropped by [Nybora Tidewater](../npcs/nybora-tidewater.md),
   learning that "something is trapped inside" — a fey being that rejected him
   outright ("you were not chosen"). Spent the session urging the party to sell

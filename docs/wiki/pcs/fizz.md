@@ -25,7 +25,7 @@ fey vessel and its purposes.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Freed
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Freed
   [Major Jamieson](../npcs/major-jamieson.md)'s sewn-shut mouth with a delicate
   medicine check, felled a suture fly with a clean crossbow shot, and used
   Frederick to confirm that both he and Prance had been "chosen" by kindred fey

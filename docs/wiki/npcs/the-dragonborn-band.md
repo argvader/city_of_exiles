@@ -25,7 +25,7 @@ healer; **Fire**; and **Water**, who took a shine to
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Arrived mid-battle in
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Arrived mid-battle in
   [the Slums](../locations/the-slums.md), buoying the party with inspiring music
   and healing [Krum](../pcs/krum.md), Prance, and [Adarius](../pcs/adarius.md)'s
   badly burned father after the fight.

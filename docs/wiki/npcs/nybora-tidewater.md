@@ -23,7 +23,7 @@ burning from the assault.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Ambushed at the Water
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Ambushed at the Water
   Temple by suture flies, which sewed her mouth and then her hands shut to stop
   her praying, and carried her bodily out of the city. As she was flown away, she
   tore a gold teardrop amulet from her chest and dropped it — deliberately —

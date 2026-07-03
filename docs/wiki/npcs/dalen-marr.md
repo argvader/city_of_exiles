@@ -15,7 +15,7 @@ the attackers even when blinded by smoke: "I still see you, you pieces of shit."
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Held the line at the
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Held the line at the
   Water Temple through the final battle, taking hits meant for the party and
   surviving the assault that carried off
   [Nybora Tidewater](nybora-tidewater.md).

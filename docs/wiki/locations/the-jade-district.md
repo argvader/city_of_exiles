@@ -18,7 +18,7 @@ concentrated against it.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Reported by Cerus's
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Reported by Cerus's
   aerial scouting as the most resilient district but under the heaviest attack.
   Cerus flew to defend it while the party took the Slums first, then converged on
   the Water Temple here for the session's final battle.

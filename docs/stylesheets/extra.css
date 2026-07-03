@@ -1,0 +1,153 @@
+/* ============================================================================
+   City of Exiles — arid desert / Egyptian theme
+   Basalt & gold (dark) and sandstone (light), inspired by carved glyph walls.
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap");
+
+:root {
+  --coe-gold: #c8a54e;
+  --coe-gold-bright: #e0b64a;
+  --coe-gold-deep: #9c7c34;
+  --coe-ember: #c9622f;
+  --coe-turquoise: #3fb0a5;
+}
+
+/* ---------------------------------------------------------------- Dark: basalt */
+[data-md-color-scheme="slate"] {
+  --md-hue: 40;
+  --md-primary-fg-color: #181410;
+  --md-primary-fg-color--light: #221d16;
+  --md-primary-fg-color--dark: #100d0a;
+  --md-accent-fg-color: var(--coe-gold-bright);
+
+  --md-default-bg-color: #17130d;
+  --md-default-bg-color--light: #1f1a12;
+  --md-default-fg-color: #ece1cb;
+  --md-default-fg-color--light: #cdbfa0;
+  --md-default-fg-color--lighter: #8f8062;
+
+  --md-typeset-color: #e7dcc4;
+  --md-typeset-a-color: var(--coe-gold-bright);
+
+  --md-code-bg-color: #221c14;
+  --md-code-fg-color: #e6d6ac;
+}
+
+/* ------------------------------------------------------------ Light: sandstone */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #7a5a24;
+  --md-primary-fg-color--light: #96712f;
+  --md-primary-fg-color--dark: #5e4419;
+  --md-accent-fg-color: var(--coe-ember);
+
+  --md-default-bg-color: #f4ead6;
+  --md-default-bg-color--light: #f8f0e0;
+  --md-default-fg-color: #3a2e1f;
+
+  --md-typeset-color: #3a2e1f;
+  --md-typeset-a-color: #8a5a1e;
+
+  --md-code-bg-color: #ece0c6;
+  --md-code-fg-color: #5e4419;
+}
+
+/* ------------------------------------------------------------------- Typography */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-header__title,
+.md-nav__title {
+  font-family: "Cinzel", "Marcellus", serif;
+  letter-spacing: 0.02em;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  color: var(--coe-gold);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .md-typeset h2 {
+  color: var(--coe-gold-deep);
+}
+
+/* Carved-glyph divider under section headings. */
+.md-typeset h2 {
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--coe-gold-deep);
+}
+
+/* Gilded horizontal rule. */
+.md-typeset hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--coe-gold-deep),
+    var(--coe-gold),
+    var(--coe-gold-deep),
+    transparent
+  );
+}
+
+/* ------------------------------------------------------- Framed wiki + scene art */
+/* PC/NPC portraits & location art injected by hooks/wiki_images.py. */
+.md-typeset img.wiki-image {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  margin: 0.4rem 1.4rem 1.4rem;
+  border: 2px solid var(--coe-gold-deep);
+  border-radius: 4px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* PC & NPC portraits: float to the right so the intro line and the Overview
+   section sit to their left. Every section AFTER Overview (the second H2 onward)
+   clears below the pairing, so the rest of the page runs full width beneath it.
+   Scoped to .wiki-portrait, so location banners are unaffected. */
+.md-typeset img.wiki-portrait {
+  float: right;
+  margin: 0.3rem 0 1rem 1.6rem;
+}
+
+.md-typeset img.wiki-portrait ~ h2 ~ h2 {
+  clear: right;
+}
+
+/* The dramatized "## The Scene" image at the bottom of a session page. */
+.md-typeset h2#the-scene + p img,
+.md-typeset img.scene-image {
+  display: block;
+  width: 100%;
+  margin: 0.6rem auto 1.4rem;
+  border: 2px solid var(--coe-gold-deep);
+  border-radius: 4px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.5);
+}
+
+/* --------------------------------------------------------------- Home hero image */
+.md-typeset img.home-hero {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.6rem;
+  border: 3px solid var(--coe-gold-deep);
+  border-radius: 6px;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.55);
+}
+
+/* ------------------------------------------------------------------ Nav accents */
+.md-nav__item .md-nav__link--active,
+.md-nav__link:hover {
+  color: var(--coe-gold-bright);
+}
+
+/* Tables: gilded header row. */
+.md-typeset table:not([class]) th {
+  background: var(--coe-gold-deep);
+  color: #17130d;
+  font-family: "Cinzel", serif;
+}

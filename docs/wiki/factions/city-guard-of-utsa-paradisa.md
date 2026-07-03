@@ -21,7 +21,7 @@ districts by their fingernails.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — The guard fought and
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — The guard fought and
   died in numbers across the Slums and the Water Temple, several withering to the
   thirsters' drought. The survivors, aided by the party, held the city — though
   they could not stop the priestess's abduction.

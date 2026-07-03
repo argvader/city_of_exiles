@@ -23,6 +23,6 @@ protectively) of someone he calls "mom."
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Vouched (grudgingly) for
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Vouched (grudgingly) for
   the new amulet and its quest, tying Fizz into the same fey mystery now driving
   Prance.

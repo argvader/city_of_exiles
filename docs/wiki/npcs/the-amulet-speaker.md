@@ -31,7 +31,7 @@ feelings, and my daughter was just kidnapped. I'm having a bad day."
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Revealed by Adarius's
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Revealed by Adarius's
   *identify* as "something trapped inside." Chose Prance, who donned the amulet
   and swore an oath to rescue the priestess, feeling a spark of magic settle into
   place.

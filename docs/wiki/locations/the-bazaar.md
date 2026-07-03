@@ -11,6 +11,6 @@ that he ate the ledger recording the stolen goods.
 
 ## Session History
 
-- **[The Tidewater Amulet](../sessions/2026-07-03.md)** — Left ransacked but no
+- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Left ransacked but no
   longer under immediate threat, held by [Major Jamieson](../npcs/major-jamieson.md)
   and the remaining guards while the party moved on to other districts.

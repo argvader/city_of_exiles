@@ -28,6 +28,11 @@ Update or create entries in `docs/wiki/` organized by category:
 Update existing PC files with new information from this session — abilities used,
 character development, relationships formed.
 
+> **Portraits.** PC pages show a portrait automatically **if** an image named after
+> the page slug exists at `docs/assets/pcs/<slug>.png` (or `.jpg`/`.jpeg`/`.webp`) —
+> these are player-provided art, dropped in by hand. Do not generate or embed them;
+> the `hooks/wiki_images.py` build hook renders them at the top of the page.
+
 #### NPCs (`docs/wiki/npcs/`)
 For each NPC encountered (new or returning), create or update their file:
 
@@ -37,6 +42,11 @@ For each NPC encountered (new or returning), create or update their file:
 - **Goals and motivations** (known or inferred)
 - **Relationships** with PCs and other NPCs
 - **Session history** — key interactions and developments
+
+> **Portraits.** NPC pages show a portrait automatically **if** an image named after
+> the page slug exists at `docs/assets/npcs/<slug>.png` (or `.jpg`/`.jpeg`/`.webp`) —
+> these are user-provided art, dropped in by hand. Do not generate or embed them;
+> the `hooks/wiki_images.py` build hook renders them at the top of the page.
 
 #### Factions (`docs/wiki/factions/`)
 Update faction entries with new information about:
@@ -49,6 +59,25 @@ For significant locations visited or mentioned:
 - Description and notable features
 - Who/what can be found there
 - Events that occurred there
+
+**Location image.** Each location page opens with a summary paragraph (the text
+right after the `# Heading`). When you create a location page — or when
+`docs/assets/locations/<slug>.png` does **not** already exist for an existing one —
+generate an image from that summary:
+
+```bash
+set -a; source .env; set +a
+python3 bin/gen-image.py \
+  --prompt "<the location's summary paragraph>" \
+  --out docs/assets/locations/<slug>.png \
+  --size 1536x1024
+```
+
+`<slug>` is the page's filename without `.md` (e.g. `the-water-temple`). Do **not**
+embed the image in the markdown — the `hooks/wiki_images.py` build hook renders any
+`docs/assets/locations/<slug>.png` at the top of its page automatically. Skip
+generation if the file already exists (avoids needless regeneration and cost). If
+the generator exits non-zero, surface the error and continue without the image.
 
 ---
 
@@ -83,8 +112,8 @@ Highlight standout moments worth remembering:
 
 #### Dramatized Scene (Interactive)
 
-After completing the summary, **suggest 3-5 scenes** from the session that could
-be dramatized as short prose. For each suggestion, provide:
+After completing the summary, **suggest exactly 3 scenes** from the session that
+could be dramatized as short prose. For each suggestion, provide:
 - A short title
 - A one-sentence description of the moment
 
@@ -92,8 +121,33 @@ be dramatized as short prose. For each suggestion, provide:
 of that scene — vivid, atmospheric prose that brings the moment to life. Include
 sensory details, character voice, and tension.
 
+**Generate a scene image.** Build an image prompt from the chosen scene — the
+setting, the characters present (use their wiki/`world/world.md` descriptions for
+appearance), and the mood. Load your keys once per shell, then run the generator:
+
+```bash
+set -a; source .env; set +a
+python3 bin/gen-image.py \
+  --prompt "<vivid one-paragraph description of the chosen scene>" \
+  --out docs/assets/sessions/<DATE>.png \
+  --size 1536x1024
+```
+
+The script appends the shared desert style automatically. If it exits non-zero
+(e.g. `OPENAI_API_KEY` not set), surface the error and continue with the prose
+only — do not embed a missing image.
+
 Add the dramatized scene to the session summary under a `## The Scene` heading,
-placed **at the very end** of the file (after the Timeline section).
+placed **as the very last section** of the file. Embed the image first, then the
+prose:
+
+```markdown
+## The Scene
+
+![<scene title>](../assets/sessions/<DATE>.png)
+
+<the 3-paragraph dramatization>
+```
 
 ---
 
@@ -113,6 +167,18 @@ nav:
 Include the date in parentheses after the session name. Use a descriptive title
 like "Session One", "Session Two", etc., or a thematic title if the session had a
 clear narrative arc (e.g., "Whispers in the Archives").
+
+**If the `Sessions:` nav entry is missing** (e.g. it was removed when the last
+session was unpublished), recreate it. Add it right after `- Home: index.md` and
+before `- Wiki:`, with the new session as its first child:
+
+```yaml
+nav:
+  - Home: index.md
+  - Sessions:
+      - "Session One (2026-06-04)": sessions/2026-06-04.md
+  - Wiki:
+```
 
 Also add new wiki pages to the `Wiki:` nav entry under their category, and add the
 session row to the table in `docs/index.md`.
@@ -138,7 +204,7 @@ Use relative paths from the file's location. Keep link text natural:
 ## Input Sources
 
 ### World Bible
-`WORLD.md` (repo root) — the canonical setting reference for Erratt: nations,
+`world/world.md` — the canonical setting reference for Erratt: nations,
 races, factions, geography, and pantheon. Use it to keep names, places, and lore
 consistent, and to place new NPCs/locations correctly in the world.
 
@@ -177,7 +243,7 @@ The campaign is set in the world of **Erratt**, shaped by **the Schism** — a
 cataclysm in which the Feywild tried to merge with the material plane, spilling
 out magic and Fey, splitting the land, and awakening the Beastfolk. Its
 aftermath defines every nation's borders, grudges, and alliances. See
-[`WORLD.md`](WORLD.md) for the full campaign bible (nations, races, pantheon).
+[`world/world.md`](world/world.md) for the full campaign bible (nations, races, pantheon).
 
 The party begins in **Utsa Paradisa — "the City of Exiles"**, a desert oasis in
 the Northern Territories:

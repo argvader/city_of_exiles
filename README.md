@@ -10,7 +10,11 @@ and published to GitHub Pages.
 - **`docs/`** — the published site (sessions + wiki). Built by MkDocs.
 - **`sessions-raw/`** — raw inputs per session (transcripts, notes). Not published.
 - **`SESSION_SUMMARIZER.md`** — the prompt used to turn raw materials into the site.
-- **`WORLD.md`** — the Erratt campaign bible (setting reference).
+- **`WORLD_PAGE.md`** — the prompt that builds the home page from `world/`.
+- **`world/`** — the Erratt campaign bible (`world.md`) and world notes; source for
+  the home page. Not published directly.
+- **`bin/`** — helper scripts: `gen-image.py` (generate art via OpenAI), and
+  `unpublish-session.sh` (remove a published session to republish it).
 
 ---
 
@@ -49,9 +53,14 @@ key, then load it into the shell (`.env` is git-ignored, so your key stays out
 of the repo):
 
 ```bash
-cp .env.example .env      # then edit .env and set DEEPGRAM_API_KEY
+cp .env.example .env      # then edit .env and set DEEPGRAM_API_KEY (and OPENAI_API_KEY)
 set -a; source .env; set +a
 ```
+
+> `.env` also holds `OPENAI_API_KEY`, used by `bin/gen-image.py` to generate the
+> scene, location, and home-hero art (via OpenAI `gpt-image-1` — your org must be
+> verified for that model). The summarizer and `WORLD_PAGE.md` call it for you;
+> load the key the same way before running them.
 
 **Large video files (extract the audio first).** Deepgram caps pre-recorded
 uploads at **2 GB**. A screen/video recording is almost entirely video — strip
@@ -171,16 +180,47 @@ The summarizer treats the **newest** date folder as the latest session.
 ### 5. Generate the site content
 
 Run the prompt in [`SESSION_SUMMARIZER.md`](SESSION_SUMMARIZER.md). It reads the
-newest `sessions-raw/<DATE>/`, the existing `docs/`, and `WORLD.md`, then:
+newest `sessions-raw/<DATE>/`, the existing `docs/`, and `world/world.md`, then:
 
-- updates/creates wiki entries under `docs/wiki/{pcs,npcs,factions,locations}/`,
-- writes the session summary to `docs/sessions/<DATE>.md`,
+- updates/creates wiki entries under `docs/wiki/{pcs,npcs,factions,locations}/`
+  (generating a location image for each new location into `docs/assets/locations/`),
+- writes the session summary to `docs/sessions/<DATE>.md`, ending with a
+  **dramatized scene** (you pick 1 of 3) plus a generated image in
+  `docs/assets/sessions/<DATE>.png`,
 - updates the nav in `mkdocs.yml` and the table in `docs/index.md`.
+
+**PC and NPC portraits** are player-provided: drop an image at
+`docs/assets/pcs/<slug>.png` or `docs/assets/npcs/<slug>.png` (named after the
+character's page) and it renders on that page automatically — no prompt needed.
+
+**Home page.** To (re)build the landing page from the world bible, run the
+[`WORLD_PAGE.md`](WORLD_PAGE.md) prompt. It reads everything in `world/`, rewrites
+the body of `docs/index.md`, and generates `docs/assets/home-hero.png`.
+
+**Republishing a session.** To redo an already-published session after edits,
+remove it first, then re-run the summarizer:
+
+```bash
+bin/unpublish-session.sh <DATE>   # removes the session page, its image, nav + index row
+```
+
+It leaves `sessions-raw/<DATE>/` and the wiki untouched.
+
+**Shortcut — Claude Code skills.** This repo ships project-local skills so you can
+drive the content steps by name instead of opening the prompts. In Claude Code, just
+say:
+
+- **"summarize latest session"** → runs the `SESSION_SUMMARIZER.md` process.
+- **"build world data"** → runs the `WORLD_PAGE.md` process (rebuilds the home page).
+- **"publish site"** → build-checks, commits, and pushes to `main` (deploys — step 7).
+
+They live in `.claude/skills/` and are available only in this project. The recording
+and transcription steps (OBS / Deepgram / `ffmpeg` / `jq`) stay manual — see above.
 
 ### 6. Preview locally (optional)
 
 ```bash
-pip install mkdocs-material
+pip install -r requirements.txt
 mkdocs serve     # http://127.0.0.1:8000
 ```
 

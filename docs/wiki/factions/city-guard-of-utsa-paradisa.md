@@ -16,7 +16,7 @@ districts by their fingernails.
 - **[Dalen Marr](../npcs/dalen-marr.md)** — veteran commander at
   [the Water Temple](../locations/the-water-temple.md), and [Krum](../pcs/krum.md)'s
   direct superior.
-- **[Charles Gambit](../npcs/charles-gambit.md)** — a guardsman turned deserter,
+- **[Charles Dammit](../npcs/charles-dammit.md)** — a guardsman turned deserter,
   now in disgrace.
 
 ## Session History

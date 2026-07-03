@@ -16,5 +16,5 @@ said to have connections among its scholars.
 ## Session History
 
 - **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Reported intact by
-  Cerus's aerial scouting; shouts of victory rose from the Wizard Tower as the
+  Seris's aerial scouting; shouts of victory rose from the Wizard Tower as the
   city was secured for the night.

@@ -1,15 +1,16 @@
 ---
-title: "Cerus"
+title: "Seris"
 ---
 
-# Cerus
+# Seris
 
 **Role:** Tiefling Griffin rider · **Affiliation:** the Griffin riders of
 [the Jade District](../locations/the-jade-district.md)
 
 ## Overview
 
-A tiefling Griffin rider, addressed with courtly deference as "M'lady." She
+A tiefling Griffin rider, addressed with courtly deference as "M'lady," who rides
+her griffon [Glidershade](glidershade.md). She
 survived a brush with death in an earlier session — saved by
 [Krum](../pcs/krum.md), while [Prance](../pcs/prance-galavant.md) so impressed her
 Griffin that the beast itself took a liking to the party.

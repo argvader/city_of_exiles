@@ -1,8 +1,8 @@
 ---
-title: "Charles Gambit"
+title: "Charles Dammit"
 ---
 
-# Charles Gambit
+# Charles Dammit
 
 **Role:** Guardsman of the [City Guard of Utsa Paradisa](../factions/city-guard-of-utsa-paradisa.md)
 

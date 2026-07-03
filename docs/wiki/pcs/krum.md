@@ -20,7 +20,7 @@ the other side as its biggest hero.
 Krum has an uncle at [the University](../locations/the-university.md), and is
 known to the guard — he reports directly to the veteran commander
 [Dalen Marr](../npcs/dalen-marr.md). He is not on friendly terms with the coward
-[Charles Gambit](../npcs/charles-gambit.md).
+[Charles Dammit](../npcs/charles-dammit.md).
 
 ## Session History
 

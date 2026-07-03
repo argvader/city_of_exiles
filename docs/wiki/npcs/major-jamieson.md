@@ -18,7 +18,7 @@ series of medicine checks and a healing touch.
 Proud and duty-bound. The moment his mouth was freed — spitting blood — his first
 concern was rallying the remaining guards to hold [the Bazaar](../locations/the-bazaar.md).
 He has no patience for cowards: he wants the deserter
-[Charles Gambit](charles-gambit.md) put to work as his "office boy" once the
+[Charles Dammit](charles-dammit.md) put to work as his "office boy" once the
 crisis passes.
 
 ## Session History

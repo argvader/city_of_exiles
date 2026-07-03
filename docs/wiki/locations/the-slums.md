@@ -18,7 +18,7 @@ elevated bridges between them.
 
 ## Who You'll Find Here
 
-[Patty Greenfoot](../npcs/patty-greenfoot.md) the gnome, local guardsmen, and the
+[Paddy Greenfoot](../npcs/paddy-greenfoot.md) the gnome, local guardsmen, and the
 common folk who make up [Fizz](../pcs/fizz.md)'s fanbase.
 
 ## Session History
@@ -28,4 +28,4 @@ common folk who make up [Fizz](../pcs/fizz.md)'s fanbase.
   amid the tortoise shells. [Adarius](../pcs/adarius.md)'s father was gravely
   burned but survived; [the Dragonborn Band](../npcs/the-dragonborn-band.md)
   arrived to turn the tide with music and healing. The district was left safe
-  under Patty Greenfoot and the guard.
+  under Paddy Greenfoot and the guard.

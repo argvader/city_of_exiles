@@ -1,15 +1,15 @@
 ---
-title: "Patty Greenfoot"
+title: "Paddy Greenfoot"
 ---
 
-# Patty Greenfoot
+# Paddy Greenfoot
 
 **Role:** Gnome of [the Slums](../locations/the-slums.md)
 
 ## Overview
 
 A gnome and old friend of the party from [the Slums](../locations/the-slums.md).
-Once left injured and in pain, Patty had earlier helped [Adarius](../pcs/adarius.md)
+Once left injured and in pain, Paddy had earlier helped [Adarius](../pcs/adarius.md)
 and [Krum](../pcs/krum.md) reach the district. Warm and irrepressible, he grumbles
 about being too old to fight ("I should've blown in four years — what the hell am
 I doing out here?") even as he throws himself into the defense.

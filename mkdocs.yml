@@ -20,16 +20,31 @@ theme:
 
 nav:
   - Home: index.md
-  # Add each new session under Sessions as it is published, e.g.:
-  # - Sessions:
-  #     - "Session One (2026-06-04)": sessions/2026-06-04.md
-  # Add wiki entries under their category as they are created, e.g.:
-  # - Wiki:
-  #     - Player Characters:
-  #         - wiki/pcs/some-pc.md
-  #     - NPCs:
-  #         - wiki/npcs/some-npc.md
-  #     - Factions:
-  #         - wiki/factions/some-faction.md
-  #     - Locations:
-  #         - wiki/locations/some-location.md
+  - Sessions:
+      - "Session One — The Tidewater Amulet (2026-07-03)": sessions/2026-07-03.md
+  - Wiki:
+      - Player Characters:
+          - wiki/pcs/adarius.md
+          - wiki/pcs/behnsun-payne.md
+          - wiki/pcs/fizz.md
+          - wiki/pcs/krum.md
+          - wiki/pcs/prance-galavant.md
+      - NPCs:
+          - wiki/npcs/nybora-tidewater.md
+          - wiki/npcs/the-amulet-speaker.md
+          - wiki/npcs/frederick.md
+          - wiki/npcs/major-jamieson.md
+          - wiki/npcs/charles-gambit.md
+          - wiki/npcs/cerus.md
+          - wiki/npcs/patty-greenfoot.md
+          - wiki/npcs/the-dragonborn-band.md
+          - wiki/npcs/dalen-marr.md
+      - Factions:
+          - wiki/factions/city-guard-of-utsa-paradisa.md
+      - Locations:
+          - wiki/locations/utsa-paradisa.md
+          - wiki/locations/the-slums.md
+          - wiki/locations/the-jade-district.md
+          - wiki/locations/the-water-temple.md
+          - wiki/locations/the-university.md
+          - wiki/locations/the-bazaar.md

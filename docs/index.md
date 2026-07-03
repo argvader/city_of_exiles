@@ -8,12 +8,6 @@ Welcome to the session archive and campaign wiki for *City of Exiles*.
 
 ## Sessions
 
-_No sessions published yet. The session index will appear here as summaries are added to `docs/sessions/`._
-
-<!--
-Once sessions exist, list them like:
-
 | # | Session | Date |
 | --- | --- | --- |
-| 1 | [Session One — Title](sessions/2026-06-04.md) | June 4, 2026 |
--->
+| 1 | [Session One — The Tidewater Amulet](sessions/2026-07-03.md) | July 3, 2026 |

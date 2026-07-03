@@ -28,9 +28,9 @@ sacred and scarce**, heavily guarded, and whoever controls it holds power.
 
 ## Current State
 
-As of **[The Tidewater Amulet](../../sessions/2026-07-03.md)**, the city is in chaos
+As of **[The Tidewoven Amulet](../../sessions/2026-07-03.md)**, the city is in chaos
 — overrun by fey and elemental attackers (suture flies, thirsters, and fire
 mephits) in the aftermath of the previous session. The party fought district by
 district to beat back the assault, but the water priestess
-[Nybora Tidewater](../npcs/nybora-tidewater.md) was abducted from the Water
+[Naivara Tidewoven](../npcs/naivara-tidewoven.md) was abducted from the Water
 Temple. The city is "safe for now."

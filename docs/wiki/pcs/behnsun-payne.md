@@ -26,7 +26,7 @@ ledger recording the party's stolen goods.
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Helped free the
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Helped free the
   stitched-together guard [Major Jamieson](../npcs/major-jamieson.md), fought
   through the Slums to protect his orphanage, and finished a fire mephit with a
   well-chosen *chromatic orb* of cold that froze the creature before it could

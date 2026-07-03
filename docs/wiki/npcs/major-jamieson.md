@@ -23,7 +23,7 @@ crisis passes.
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Freed by
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Freed by
   [Fizz](../pcs/fizz.md), [Behnsun Payne](../pcs/behnsun-payne.md), and
   [Prance Galavant](../pcs/prance-galavant.md), who unstitched his mouth and hand
   and healed his wounds while [Krum](../pcs/krum.md) kept him calm.

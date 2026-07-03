@@ -17,7 +17,7 @@ Griffin that the beast itself took a liking to the party.
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — At Prance's request, she
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — At Prance's request, she
   took to the air and scouted the city (rolling a natural 20 on perception),
   reporting that [the University](../locations/the-university.md) stood strong,
   [the Slums](../locations/the-slums.md) were worse off than usual, and

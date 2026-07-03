@@ -16,13 +16,13 @@ protectively) of someone he calls "mom."
 
 ## Relationships
 
-- Recognized the spirit in [Nybora Tidewater](nybora-tidewater.md)'s teardrop —
+- Recognized the spirit in [Naivara Tidewoven](naivara-tidewoven.md)'s teardrop —
   [the Amulet Speaker](the-amulet-speaker.md) — as a "brother," and confirmed
   that Fizz, like [Prance](../pcs/prance-galavant.md), has been "chosen" by a fey
   vessel.
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Vouched (grudgingly) for
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Vouched (grudgingly) for
   the new amulet and its quest, tying Fizz into the same fey mystery now driving
   Prance.

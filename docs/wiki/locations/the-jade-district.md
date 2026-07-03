@@ -14,11 +14,11 @@ concentrated against it.
 - The roost of the city's **Griffins**, defended by riders such as
   [Seris](../npcs/seris.md).
 - **[The Water Temple](the-water-temple.md)**, seat of the water priestess
-  [Nybora Tidewater](../npcs/nybora-tidewater.md).
+  [Naivara Tidewoven](../npcs/naivara-tidewoven.md).
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Reported by Seris's
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Reported by Seris's
   aerial scouting as the most resilient district but under the heaviest attack.
   Seris flew to defend it while the party took the Slums first, then converged on
   the Water Temple here for the session's final battle.

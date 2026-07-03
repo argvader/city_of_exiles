@@ -48,6 +48,19 @@ For each NPC encountered (new or returning), create or update their file:
 > these are user-provided art, dropped in by hand. Do not generate or embed them;
 > the `hooks/wiki_images.py` build hook renders them at the top of the page.
 
+> **Canonical names come from the portrait art, not the transcript.** The Deepgram
+> transcript garbles names (ASR "Cerus"/"Sarifs" → art `seris.png`; "Nybora
+> Tidewater" → `naivara-tidewoven.png`; "Patty" → `paddy-greenfoot.png`). The
+> player-dropped filenames in `docs/assets/pcs/` and `docs/assets/npcs/` carry the
+> **correct** spelling. So before finalizing any PC/NPC name: list those folders and,
+> when a character plausibly matches an existing image filename (same person,
+> phonetically or semantically), adopt the **image's** spelling for both the display
+> name and the page slug, and name the page file to match the image basename so the
+> portrait auto-wires. If an existing wiki page's name conflicts with newly-dropped
+> art that clearly depicts the same character, prefer the image spelling and rename
+> the page with `bin/rename-npc.sh <old-slug> <new-slug> "<Old Name>" "<New Name>"`
+> (it does the `git mv` + rewrites every reference + updates the nav).
+
 #### Factions (`docs/wiki/factions/`)
 Update faction entries with new information about:
 - Leadership and membership changes
@@ -155,18 +168,23 @@ prose:
 
 Add the new session to `mkdocs.yml` under the `Sessions:` nav entry.
 
-Example — if the session is `2026-06-18.md` (Session Two), add:
+**Session-title convention — numbered when listed, plain when alone.** Give each
+session a short **thematic title** (e.g. "The Tidewoven Amulet"). Do **not** use a
+"Session One —" style prefix.
+- **When the title appears in a list** (the `mkdocs.yml` nav label, and via the `#`
+  column of the `docs/index.md` table), it carries the session's **chapter number**.
+  Nav label format: `"<N>. <Thematic Title>"`.
+- **When the title stands alone** (the session page's frontmatter `title:` and its
+  `# ` H1), show the thematic title **only** — no number, no prefix.
+
+Example — if the session is `2026-06-18.md` and it is chapter 2, add:
 
 ```yaml
 nav:
   - Sessions:
-      - "Session One (2026-06-04)": sessions/2026-06-04.md
-      - "Session Two (2026-06-18)": sessions/2026-06-18.md   # ← add new session here
+      - "1. The Tidewoven Amulet": sessions/2026-07-03.md
+      - "2. Whispers in the Archives": sessions/2026-06-18.md   # ← add new session here
 ```
-
-Include the date in parentheses after the session name. Use a descriptive title
-like "Session One", "Session Two", etc., or a thematic title if the session had a
-clear narrative arc (e.g., "Whispers in the Archives").
 
 **If the `Sessions:` nav entry is missing** (e.g. it was removed when the last
 session was unpublished), recreate it. Add it right after `- Home: index.md` and
@@ -176,12 +194,13 @@ before `- Wiki:`, with the new session as its first child:
 nav:
   - Home: index.md
   - Sessions:
-      - "Session One (2026-06-04)": sessions/2026-06-04.md
+      - "1. The Tidewoven Amulet": sessions/2026-07-03.md
   - Wiki:
 ```
 
 Also add new wiki pages to the `Wiki:` nav entry under their category, and add the
-session row to the table in `docs/index.md`.
+session row to the table in `docs/index.md` — the `#` column holds the chapter
+number and the link text is the thematic title only.
 
 ---
 

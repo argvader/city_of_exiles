@@ -17,6 +17,6 @@ beast in an earlier session.
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Carried Seris on her
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Carried Seris on her
   aerial reconnaissance over the city, then flew with her to defend the Jade
   District against the heaviest of the assault.

@@ -17,9 +17,9 @@ footwork on failed saves and a knack for landing brutal critical hits. He speaks
 in grand, ceremonial flourishes and treats every fight as the next act of an
 unfolding story. Where others loot, Prance postures.
 
-## The Tidewater Amulet
+## The Tidewoven Amulet
 
-When [Nybora Tidewater](../npcs/nybora-tidewater.md) was carried off, she draped a
+When [Naivara Tidewoven](../npcs/naivara-tidewoven.md) was carried off, she draped a
 teardrop amulet over Prance's ear as a deliberate clue. The fey being inside
 chose him — "You will do. You must save my daughter." Against
 [Adarius](adarius.md)'s strong objections, Prance donned the amulet and swore an
@@ -27,7 +27,7 @@ oath to rescue the priestess, feeling "a spark of magic click" as he put it on.
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Requested the aerial
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Requested the aerial
   recon that set the party's course, delivered a 39-damage brutal-critical
   smashing hit in the Slums, was catapulted (with the rest) into the temple
   fight, and ended the night bound by oath to the amulet's quest.

@@ -24,7 +24,7 @@ known to the guard — he reports directly to the veteran commander
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Twice let the party
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Twice let the party
   build a makeshift catapult and launch him across the battlefield to crash down
   on fire mephits, driving them so far into the earth that their death-bursts
   barely singed him. Also calmed the panicking Major Jamieson long enough for the

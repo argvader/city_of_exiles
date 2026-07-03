@@ -63,4 +63,4 @@ and the exiles are only just stepping into it.
 
 | # | Session | Date |
 | --- | --- | --- |
-| 1 | [Session One — The Tidewater Amulet](sessions/2026-07-03.md) | July 3, 2026 |
+| 1 | [The Tidewoven Amulet](sessions/2026-07-03.md) | July 3, 2026 |

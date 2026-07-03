@@ -15,6 +15,6 @@ punishment, and [Krum](../pcs/krum.md) is no friend of his.
 
 ## Session History
 
-- **[The Tidewater Amulet](../../sessions/2026-07-03.md)** — Mentioned only; still
+- **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Mentioned only; still
   missing, having abandoned [the Bazaar](../locations/the-bazaar.md) during the
   chaos.

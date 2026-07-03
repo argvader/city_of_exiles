@@ -53,7 +53,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Sessions:
-      - "Session One — The Tidewater Amulet (2026-07-03)": sessions/2026-07-03.md
+      - "1. The Tidewoven Amulet": sessions/2026-07-03.md
   - Wiki:
       - Player Characters:
           - wiki/pcs/adarius.md
@@ -62,7 +62,7 @@ nav:
           - wiki/pcs/krum.md
           - wiki/pcs/prance-galavant.md
       - NPCs:
-          - wiki/npcs/nybora-tidewater.md
+          - wiki/npcs/naivara-tidewoven.md
           - wiki/npcs/the-amulet-speaker.md
           - wiki/npcs/frederick.md
           - wiki/npcs/major-jamieson.md

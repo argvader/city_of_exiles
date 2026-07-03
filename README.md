@@ -44,14 +44,68 @@ Send the recording to Deepgram with **diarization** and **utterances** enabled.
 Diarization separates speakers (Speaker 0, Speaker 1, …); utterances give you
 timestamped, speaker-tagged segments that map cleanly to the transcript format.
 
+First, set your Deepgram API key. Copy `.env.example` to `.env`, fill in your
+key, then load it into the shell (`.env` is git-ignored, so your key stays out
+of the repo):
+
+```bash
+cp .env.example .env      # then edit .env and set DEEPGRAM_API_KEY
+set -a; source .env; set +a
+```
+
+**Large video files (extract the audio first).** Deepgram caps pre-recorded
+uploads at **2 GB**. A screen/video recording is almost entirely video — strip
+it and upload audio only. Copying the existing audio stream is instant and
+lossless (needs [`ffmpeg`](https://ffmpeg.org/); on WSL/Ubuntu:
+`sudo apt install -y ffmpeg`):
+
+```bash
+ffmpeg -i session.mp4 -vn -acodec copy session.m4a   # drops video, keeps audio as-is
+```
+
+If that errors on the codec, re-encode instead — for speech-to-text, downmixing
+to 16 kHz mono is lossless in practice and yields a tiny file:
+
+```bash
+ffmpeg -i session.mp4 -vn -ac 1 -ar 16000 -c:a flac session.flac
+```
+
+Then run the transcribe step below on the extracted audio (`Content-Type:
+audio/mp4` for `.m4a`, `audio/flac` for `.flac`). Check `ls -lh` to confirm it's
+under the 2 GB cap.
+
+For a `.wav` recording:
+
 ```bash
 curl --request POST \
   --url 'https://api.deepgram.com/v1/listen?model=nova-3&diarize=true&punctuate=true&smart_format=true&utterances=true' \
   --header "Authorization: Token $DEEPGRAM_API_KEY" \
-  --header 'Content-Type: audio/wav' \
-  --data-binary @session.wav \
+  --header 'Content-Type: audio/mp4' \
+  --data-binary @session.m4a \
   > session.deepgram.json
 ```
+
+For an `.mp4` recording — change the `Content-Type` header and the file, and use
+`-T` (stream from disk) instead of `--data-binary` (which buffers the whole file
+into memory and fails with `out of memory` on large recordings). Deepgram
+extracts the audio track automatically, so there's no need to demux to `.wav`
+first:
+
+```bash
+curl --request POST \
+  --url 'https://api.deepgram.com/v1/listen?model=nova-3&diarize=true&punctuate=true&smart_format=true&utterances=true' \
+  --header "Authorization: Token $DEEPGRAM_API_KEY" \
+  --header 'Content-Type: video/mp4' \
+  -T session.mp4 \
+  > session.deepgram.json
+```
+
+> `-T` streams the upload from disk, so memory stays flat regardless of file
+> size — prefer it over `--data-binary @file` for any large recording. Keep
+> `--request POST`; `-T` alone defaults to PUT, which Deepgram rejects.
+
+> Match the `Content-Type` to your file's container: `audio/wav`, `audio/flac`,
+> `audio/mpeg` (`.mp3`), `audio/mp4` (`.m4a`), `video/mp4` (`.mp4`), etc.
 
 > If you recorded **multi-track** (one track per speaker), you can instead
 > transcribe each track separately *without* diarization — the speaker is known

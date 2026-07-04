@@ -1,6 +1,12 @@
 site_name: "City of Exiles"
 site_url: "https://argvader.github.io/city_of_exiles/"
 
+# Player-provided character notes live beside portraits under docs/assets/<cat>/<slug>.md.
+# They are source material distilled into wiki pages, not pages themselves — keep them
+# out of the build so mkdocs doesn't render them as orphan pages (fails --strict).
+exclude_docs: |
+  assets/**/*.md
+
 theme:
   name: material
   custom_dir: overrides

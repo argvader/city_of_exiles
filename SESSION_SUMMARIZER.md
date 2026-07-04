@@ -33,6 +33,25 @@ character development, relationships formed.
 > these are player-provided art, dropped in by hand. Do not generate or embed them;
 > the `hooks/wiki_images.py` build hook renders them at the top of the page.
 
+> **Character notes (PCs and NPCs alike).** Before writing or updating a PC or NPC
+> page, check for a player-provided notes file at `docs/assets/pcs/<slug>.md` or
+> `docs/assets/npcs/<slug>.md` — the **same slug** as the portrait. If one exists,
+> treat it as **authoritative source material** for that character. It is often a
+> rough, Google-Docs-pasted sheet (bold-wrapped headings like `## **Backstory**`,
+> escaped `\!`, stray blank bullets, curly quotes) — **distill it, don't dump it**:
+> - Fold **background + personality** into the page's `## Overview` prose, in the
+>   site's voice.
+> - Add an `## In Character` section (placed **after** `## Overview` and before any
+>   per-arc sections / `## Session History`) carrying condensed **Ideals / Bonds /
+>   Flaws** and 2–3 **signature sayings** as `>` blockquotes, sourced from the notes
+>   file's sayings ("In Common") list.
+> - If the notes file (or a known campaign fact) gives a **pronunciation**, surface it
+>   as an italic gloss on its own line directly under the page H1, e.g.
+>   `*(pronounced Prawnse)*`.
+>
+> These `.md` files are **source, not rendered pages** — the build excludes them via
+> `exclude_docs` in `mkdocs.yml`. Do not link to them and do not paste their raw text.
+
 #### NPCs (`docs/wiki/npcs/`)
 For each NPC encountered (new or returning), create or update their file:
 

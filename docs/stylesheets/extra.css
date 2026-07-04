@@ -111,11 +111,28 @@
    Scoped to .wiki-portrait, so location banners are unaffected. */
 .md-typeset img.wiki-portrait {
   float: right;
-  margin: 0.3rem 0 1rem 1.6rem;
+  margin: 0.3rem 0 1rem 0.5rem;
 }
 
-.md-typeset img.wiki-portrait ~ h2 ~ h2 {
+/* Markdown wraps the injected portrait <img> in a <p>, so anchor off that paragraph
+   with :has() to reach the sibling headings (a plain `img ~ h2` never matches — the
+   img is a child of the <p>, not a sibling of the h2).
+
+   The heading beside the floated portrait establishes a block formatting context so
+   its box — and the gilded border-bottom divider — shrinks to the space LEFT of the
+   portrait instead of running underneath it. This shrink is automatic and responsive
+   (unlike `width: calc(100% - 250px)`, which collapses on narrow screens). margin-right
+   holds the divider a deliberate gap short of the image, while body text still wraps
+   close via the portrait's own 0.5rem margin. */
+.md-typeset p:has(> img.wiki-portrait) ~ h2 {
+  display: flow-root;
+  margin-right: 1.5rem;
+}
+
+/* Sections below the portrait run full width again. */
+.md-typeset p:has(> img.wiki-portrait) ~ h2 ~ h2 {
   clear: right;
+  margin-right: 0;
 }
 
 /* The dramatized "## The Scene" image at the bottom of a session page. */

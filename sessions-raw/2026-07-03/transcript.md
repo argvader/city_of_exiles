@@ -14,7 +14,7 @@
 01:08 Ian the DM: Major Jamieson was one of the guards. His body is sewn together.
 01:12 Ian the DM: Yeah.
 01:14 Ian the DM: Charles
-01:15 Ian the DM: Gambit, the other guard that y'all named,
+01:15 Ian the DM: Dammit, the other guard that y'all named,
 01:18 Ian the DM: is a coward.
 01:19 Ian the DM: I think Crum's not friends with him.
 01:23 Ian the DM: The

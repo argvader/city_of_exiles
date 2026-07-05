@@ -83,11 +83,31 @@ Then run the transcribe step below on the extracted audio (`Content-Type:
 audio/mp4` for `.m4a`, `audio/flac` for `.flac`). Check `ls -lh` to confirm it's
 under the 2 GB cap.
 
+**Choosing the diarizer (`diarize_model`).** The `diarize_model` query param
+selects which speaker-separation model runs. Two values are worth knowing:
+
+| Value                   | Model         | Notes |
+|-------------------------|---------------|-------|
+| `diarize_model=v1`      | original (v1) | The stable, faster diarizer. |
+| `diarize_model=latest`  | newest        | Deepgram's current diarizer. Slower. |
+
+> Passing `diarize_model` **implies diarization is on** — you do **not** also need
+> `diarize=true` (and the deprecated `diarize=true` alone pins to **v1**). Set the
+> model explicitly instead.
+>
+> **Our finding (this campaign's audio): prefer `v1`.** On a ~3 hr single-mix
+> session, `latest` did *not* separate speakers better. It reported 6 speakers vs
+> v1's 5, but the extra "speaker" was ~30 s of scattered noise (53 words), and it
+> actually folded more of one real speaker's lines into another. It's also slower,
+> which can push a large single upload past Deepgram's sync **gateway timeout**
+> (use the async `&callback=<url>` flow for very long files). Start with `v1`;
+> only try `latest` if v1 is visibly mis-splitting your recording.
+
 For a `.wav` recording:
 
 ```bash
 curl --request POST \
-  --url 'https://api.deepgram.com/v1/listen?model=nova-3&diarize=true&punctuate=true&smart_format=true&utterances=true' \
+  --url 'https://api.deepgram.com/v1/listen?model=nova-3&diarize_model=v1&punctuate=true&smart_format=true&utterances=true' \
   --header "Authorization: Token $DEEPGRAM_API_KEY" \
   --header 'Content-Type: audio/mp4' \
   --data-binary @session.m4a \
@@ -102,7 +122,7 @@ first:
 
 ```bash
 curl --request POST \
-  --url 'https://api.deepgram.com/v1/listen?model=nova-3&diarize=true&punctuate=true&smart_format=true&utterances=true' \
+  --url 'https://api.deepgram.com/v1/listen?model=nova-3&diarize_model=v1&punctuate=true&smart_format=true&utterances=true' \
   --header "Authorization: Token $DEEPGRAM_API_KEY" \
   --header 'Content-Type: video/mp4' \
   -T session.mp4 \

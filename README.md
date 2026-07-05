@@ -83,6 +83,10 @@ Then run the transcribe step below on the extracted audio (`Content-Type:
 audio/mp4` for `.m4a`, `audio/flac` for `.flac`). Check `ls -lh` to confirm it's
 under the 2 GB cap.
 
+> Alternatively, **host the audio in S3** and pass Deepgram a URL instead of
+> uploading the bytes at all — handy for very large files or slow/`latest` jobs
+> that time out synchronously. See **[`DEEPGRAM_AWS.md`](DEEPGRAM_AWS.md)**.
+
 **Choosing the diarizer (`diarize_model`).** The `diarize_model` query param
 selects which speaker-separation model runs. Two values are worth knowing:
 
@@ -100,8 +104,9 @@ selects which speaker-separation model runs. Two values are worth knowing:
 > v1's 5, but the extra "speaker" was ~30 s of scattered noise (53 words), and it
 > actually folded more of one real speaker's lines into another. It's also slower,
 > which can push a large single upload past Deepgram's sync **gateway timeout**
-> (use the async `&callback=<url>` flow for very long files). Start with `v1`;
-> only try `latest` if v1 is visibly mis-splitting your recording.
+> (use the async `&callback=<url>` flow for very long files — see
+> **[`DEEPGRAM_AWS.md`](DEEPGRAM_AWS.md)** for a full S3 + Lambda setup). Start
+> with `v1`; only try `latest` if v1 is visibly mis-splitting your recording.
 
 For a `.wav` recording:
 

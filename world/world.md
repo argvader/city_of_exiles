@@ -48,7 +48,7 @@ once-lush evergreen forest devastated by the event. Adapting, the people carved
 out land in the Northern Territories, leading to war with the **Goliaths**.
 Drathomir claims survival; the Goliaths call them conquerors. The war stalled
 when the **Dragonborn** conquered **UkVaruun**. The tenuous peace was brokered by
-**Empress Selene of Utsa Paradisa**. Old grudges remain and the species still
+**Empress Serenity of Utsa Paradisa**. Old grudges remain and the species still
 abhor each other.
 
 Settlements: humans bloom in **Cliffs Edge**; gnomes live among the Dragonborn;
@@ -101,7 +101,7 @@ who could not venture anywhere else. Mostly inhabited by **Tieflings** shunned
 long ago by nations that no longer exist, alongside a large **Tabaxi**
 population and other exiled beastfolk. Water is heavily guarded and considered
 sacred for its scarcity. Ruled (by implication) in the era of **Empress
-Selene**.
+Serenity**.
 
 - **Proficiencies:** Investigation, Insight; learn Infernal or Abyssal.
 - **Feat:** Healer or Resilient.

@@ -11,7 +11,8 @@ for the full setting.
 ## Overview
 
 Utsa Paradisa is a haven for the exiled — Tieflings, Tabaxi, and other beastfolk
-cast out by long-dead nations — ruled by **Empress Selene**, whose diplomacy
+cast out by long-dead nations — ruled by
+**[Empress Serenity](../npcs/empress-serenity.md)**, whose diplomacy
 brokered the fragile peace between Drathomir and the Goliaths. Here **water is
 sacred and scarce**, heavily guarded, and whoever controls it holds power.
 

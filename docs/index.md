@@ -43,7 +43,7 @@ at [the Water Temple](wiki/locations/the-water-temple.md) and its peace kept by 
 [the University](wiki/locations/the-university.md), it is a city of outcasts
 carving out belonging amid scarcity and prejudice.
 
-Utsa Paradisa punches far above its size. **Empress Selene** brokered the tenuous
+Utsa Paradisa punches far above its size. **Empress Serenity** brokered the tenuous
 peace between Drathomir and the Goliaths, giving the city real diplomatic weight,
 and its lifeline runs north to **UkRuundir**, the Goliath capital — trading tar and
 spices for lumber and mammoth meat across a brutal desert-to-cold-forest crossing
@@ -64,3 +64,4 @@ and the exiles are only just stepping into it.
 | # | Session | Date |
 | --- | --- | --- |
 | 1 | [The Tidewoven Amulet](sessions/2026-07-03.md) | July 3, 2026 |
+| 2 | [The Vanished Scholars](sessions/2026-08-11.md) | August 11, 2026 |

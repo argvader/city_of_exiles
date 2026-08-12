@@ -60,6 +60,7 @@ nav:
   - Home: index.md
   - Sessions:
       - "1. The Tidewoven Amulet": sessions/2026-07-03.md
+      - "2. The Vanished Scholars": sessions/2026-08-11.md
   - Wiki:
       - Player Characters:
           - wiki/pcs/adarius.md
@@ -78,12 +79,23 @@ nav:
           - wiki/npcs/paddy-greenfoot.md
           - wiki/npcs/the-dragonborn-band.md
           - wiki/npcs/dalen-marr.md
+          - wiki/npcs/empress-serenity.md
+          - wiki/npcs/horace-steelwinter.md
+          - wiki/npcs/velra.md
+          - wiki/npcs/karza-sunhorn.md
+          - wiki/npcs/holgren.md
+          - wiki/npcs/raasha-vaad.md
+          - wiki/npcs/gorvak-skybinder.md
+          - wiki/npcs/salvatore-danilo.md
+          - wiki/npcs/tirakar-sun.md
+          - wiki/npcs/tisk-tisk.md
       - Factions:
           - wiki/factions/city-guard-of-utsa-paradisa.md
       - Locations:
           - wiki/locations/utsa-paradisa.md
           - wiki/locations/the-slums.md
           - wiki/locations/the-jade-district.md
+          - wiki/locations/the-jade-pyramid.md
           - wiki/locations/the-water-temple.md
           - wiki/locations/the-university.md
           - wiki/locations/the-bazaar.md

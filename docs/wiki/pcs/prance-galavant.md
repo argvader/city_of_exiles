@@ -63,3 +63,11 @@ oath to rescue the priestess, feeling "a spark of magic click" as he put it on.
   recon that set the party's course, delivered a 39-damage brutal-critical
   smashing hit in the Slums, was catapulted (with the rest) into the temple
   fight, and ended the night bound by oath to the amulet's quest.
+- **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Grandly presented the
+  party to [Empress Serenity](../npcs/empress-serenity.md) — and was promptly
+  humbled — then formally accepted her charge to rescue
+  [Naivara Tidewoven](../npcs/naivara-tidewoven.md), "by blade and by my oath." Won
+  the festival's last dance only to be tango-spun to the floor by
+  [Horace Steelwinter](../npcs/horace-steelwinter.md). In the dorm he called on the
+  [Amulet Speaker](../npcs/the-amulet-speaker.md) for *armor of Agathys* and spent
+  his final *lay on hands* to drag [Krum](krum.md) back from death.

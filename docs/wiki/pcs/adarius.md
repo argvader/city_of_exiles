@@ -32,3 +32,10 @@ Adarius is also said to have connections at [the University](../locations/the-un
   outright ("you were not chosen"). Spent the session urging the party to sell
   the amulet rather than take up its quest, and rolled a dirty nat 20 on Insight
   to remain thoroughly unconvinced.
+- **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Revealed his Bladesinger
+  training, dancing through the fight while humming *Pure Imagination*. Led the
+  investigation of the missing students' dorm, endured [Gorvak Skybinder](../npcs/gorvak-skybinder.md)'s
+  jabs about his old stable job, and was rewarded by [Empress Serenity](../npcs/empress-serenity.md)
+  with a full University scholarship and a promise to rehouse his parents. The
+  trapped room nearly killed him — smothered unconscious by an animated rug before
+  [Fizz](fizz.md)'s healing word brought him back.

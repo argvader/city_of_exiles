@@ -29,3 +29,9 @@ known to the guard — he reports directly to the veteran commander
   on fire mephits, driving them so far into the earth that their death-bursts
   barely singed him. Also calmed the panicking Major Jamieson long enough for the
   party to unstitch him.
+- **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Seconded by the guard
+  leader [Karza Sunhorn](../npcs/karza-sunhorn.md) as the party's official escort
+  (and shared a dance with his own boss). His uncle [Holgren](../npcs/holgren.md)
+  gave him a Gorgon-backed bronze mirror that reveals his Phantom's spectral second
+  self. Spent most of the dorm fight grappled in a mimic's tongue, dropped
+  unconscious, and was hauled back by Prance's last *lay on hands*.

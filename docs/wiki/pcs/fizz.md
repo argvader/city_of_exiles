@@ -30,3 +30,10 @@ fey vessel and its purposes.
   medicine check, felled a suture fly with a clean crossbow shot, and used
   Frederick to confirm that both he and Prance had been "chosen" by kindred fey
   spirits.
+- **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Leaned hard into his
+  College of Eloquence gift: soothed the tense council with music, sweet-talked
+  [Horace Steelwinter](../npcs/horace-steelwinter.md) into a gift of healing potions
+  (persuasion 26), and began a wary flirtation with [Velra](../npcs/velra.md), who
+  put a dagger to his throat and decided he "may be worth my time." His rapport
+  spores even let him eavesdrop on the [Amulet Speaker](../npcs/the-amulet-speaker.md).
+  Ended the dorm brawl by decomposing and eating the defeated books.

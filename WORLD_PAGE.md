@@ -30,7 +30,8 @@ only rewrites the narrative body above it.
 
 ### Wiki
 `docs/wiki/` — use it to cross-link. When the body mentions a location, NPC, or
-faction that has a wiki page, link to it.
+faction that has a wiki page, link to it. Do **not** link to a page that doesn't
+exist yet (a broken link fails `mkdocs build --strict`).
 
 ---
 

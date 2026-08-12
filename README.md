@@ -13,7 +13,8 @@ and published to GitHub Pages.
 - **`WORLD_PAGE.md`** — the prompt that builds the home page from `world/`.
 - **`world/`** — the Erratt campaign bible (`world.md`) and world notes; source for
   the home page. Not published directly.
-- **`bin/`** — helper scripts: `gen-image.py` (generate art via OpenAI), and
+- **`bin/`** — helper scripts: `deepgram_async.py` (transcribe a session via S3 +
+  Deepgram's async callback), `gen-image.py` (generate art via OpenAI), and
   `unpublish-session.sh` (remove a published session to republish it).
 
 ---
@@ -83,9 +84,22 @@ Then run the transcribe step below on the extracted audio (`Content-Type:
 audio/mp4` for `.m4a`, `audio/flac` for `.flac`). Check `ls -lh` to confirm it's
 under the 2 GB cap.
 
-> Alternatively, **host the audio in S3** and pass Deepgram a URL instead of
-> uploading the bytes at all — handy for very large files or slow/`latest` jobs
-> that time out synchronously. See **[`DEEPGRAM_AWS.md`](DEEPGRAM_AWS.md)**.
+> **The easy path for long sessions: `bin/deepgram_async.py`.** It hosts the audio
+> in a private S3 bucket, hands Deepgram a presigned URL, and has Deepgram `PUT`
+> the finished JSON straight back into the bucket via Deepgram's **async
+> callback** — so nothing can time out mid-job. One command replaces this whole
+> section:
+>
+> ```bash
+> pip install -r requirements-dev.txt         # boto3 + requests, once
+> set -a; source .env; set +a
+> python3 bin/deepgram_async.py sessions-raw/<DATE>/session.m4a
+> ```
+>
+> It polls until the result lands and writes `sessions-raw/<DATE>/session.deepgram.json`
+> for you. One-time AWS setup (bucket + least-privileged IAM user) is in
+> **[`DEEPGRAM_AWS.md`](DEEPGRAM_AWS.md)**; the `translate-deepgram` skill runs this
+> for you. The manual `curl` recipes below are the fallback.
 
 **Choosing the diarizer (`diarize_model`).** The `diarize_model` query param
 selects which speaker-separation model runs. Two values are worth knowing:
@@ -108,7 +122,7 @@ selects which speaker-separation model runs. Two values are worth knowing:
 > **[`DEEPGRAM_AWS.md`](DEEPGRAM_AWS.md)**, or just run `bin/deepgram_async.py`). Start
 > with `v1`; only try `latest` if v1 is visibly mis-splitting your recording.
 
-For a `.wav` recording:
+For a `.wav`/`.m4a` recording:
 
 ```bash
 curl --request POST \
@@ -281,3 +295,6 @@ git add docs mkdocs.yml
 git commit -m "publish session <DATE>"
 git push origin main
 ```
+
+> **First publish — enable Pages.** On the repo's GitHub **Settings → Pages**, set
+> the source to the **`gh-pages`** branch (the Action creates it on first deploy).

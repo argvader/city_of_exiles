@@ -205,9 +205,10 @@ nav:
       - "2. Whispers in the Archives": sessions/2026-06-18.md   # ← add new session here
 ```
 
-**If the `Sessions:` nav entry is missing** (e.g. it was removed when the last
-session was unpublished), recreate it. Add it right after `- Home: index.md` and
-before `- Wiki:`, with the new session as its first child:
+**If the `Sessions:` or `Wiki:` nav section is missing** (e.g. it was removed when
+the last session was unpublished), recreate it. `Sessions:` goes right after
+`- Home: index.md` and before `- Wiki:`, with the new session as its first child;
+`Wiki:` carries a subsection per category you have pages for:
 
 ```yaml
 nav:
@@ -215,11 +216,23 @@ nav:
   - Sessions:
       - "1. The Tidewoven Amulet": sessions/2026-07-03.md
   - Wiki:
+      - Player Characters:
+          - wiki/pcs/<slug>.md
+      - NPCs:
+          - wiki/npcs/<slug>.md
+      - Factions:
+          - wiki/factions/<slug>.md
+      - Locations:
+          - wiki/locations/<slug>.md
 ```
 
-Also add new wiki pages to the `Wiki:` nav entry under their category, and add the
-session row to the table in `docs/index.md` — the `#` column holds the chapter
-number and the link text is the thematic title only.
+Also add new wiki pages to the `Wiki:` nav entry under their category. Do **not**
+create an empty nav section (a heading with no children fails
+`mkdocs build --strict`); only add a category subsection once it has at least one
+page.
+
+Add the session row to the table in `docs/index.md` too — the `#` column holds the
+chapter number and the link text is the thematic title only.
 
 ---
 

@@ -14,13 +14,10 @@ Empress's war room unbothered by the citywide catastrophe: feet on the council
 table, a chalice of wine in hand, needling the grim Goliath
 [Horace Steelwinter](horace-steelwinter.md) to come "relax with the girls." He is
 acquainted with [Prance](../pcs/prance-galavant.md), and vouched (loosely) that the
-party had performed in the wealthier districts. On his way out he pulled
-[Behnsun Payne](../pcs/behnsun-payne.md) aside with a whispered offer of work —
-"once you're done here, I may have work for you, if you're interested."
+party had performed in the wealthier districts.
 
 ## Session History
 
 - **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Lounged through the
-  council enjoying [Fizz](../pcs/fizz.md)'s music, reported the Lucky Scorpion held
-  its own in the attack, and privately propositioned Behnsun Payne for some
-  unspecified job.
+  council enjoying [Fizz](../pcs/fizz.md)'s music and reported the Lucky Scorpion
+  held its own in the attack.

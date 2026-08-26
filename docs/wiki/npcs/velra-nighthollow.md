@@ -1,8 +1,8 @@
 ---
-title: "Velra"
+title: "Velra Nighthollow"
 ---
 
-# Velra
+# Velra Nighthollow
 
 **Role:** Drow confidante and guardian of [Empress Serenity](empress-serenity.md)
 

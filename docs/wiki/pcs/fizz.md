@@ -33,7 +33,8 @@ fey vessel and its purposes.
 - **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Leaned hard into his
   College of Eloquence gift: soothed the tense council with music, sweet-talked
   [Horace Steelwinter](../npcs/horace-steelwinter.md) into a gift of healing potions
-  (persuasion 26), and began a wary flirtation with [Velra](../npcs/velra.md), who
+  (persuasion 26), and began a wary flirtation with
+  [Velra Nighthollow](../npcs/velra-nighthollow.md), who
   put a dagger to his throat and decided he "may be worth my time." His rapport
   spores even let him eavesdrop on the [Amulet Speaker](../npcs/the-amulet-speaker.md).
   Ended the dorm brawl by decomposing and eating the defeated books.

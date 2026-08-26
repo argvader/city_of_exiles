@@ -18,7 +18,8 @@ room where the city's powers gather around the Empress's table.
 - **The illusion-warped halls** — turn one way and the path seems to veer another;
   outsiders are led in circles by design.
 - **Blood-keyed doors** — concealed entrances opened by a ring pressed to the
-  wall, drawing a drop of the bearer's blood. [Velra](../npcs/velra.md) keeps one.
+  wall, drawing a drop of the bearer's blood.
+  [Velra Nighthollow](../npcs/velra-nighthollow.md) keeps one.
 - **The war room** — where [Empress Serenity](../npcs/empress-serenity.md) holds
   council, flanked by her bodyguard [Horace Steelwinter](../npcs/horace-steelwinter.md).
 - **Guest quarters** — offered to the party for the night.
@@ -26,7 +27,8 @@ room where the city's powers gather around the Empress's table.
 ## Who You'll Find Here
 
 The Empress and her inner circle — Horace Steelwinter, the drow
-[Velra](../npcs/velra.md), the guard leader [Karza Sunhorn](../npcs/karza-sunhorn.md),
+[Velra Nighthollow](../npcs/velra-nighthollow.md), the guard leader
+[Kharza Sunhorn](../npcs/kharza-sunhorn.md),
 and a rotating council of the city's power brokers.
 
 ## Session History

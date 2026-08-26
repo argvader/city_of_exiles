@@ -1,8 +1,8 @@
 ---
-title: "Karza Sunhorn"
+title: "Kharza Sunhorn"
 ---
 
-# Karza Sunhorn
+# Kharza Sunhorn
 
 **Role:** Minotaur leader of the [City Guard of Utsa Paradisa](../factions/city-guard-of-utsa-paradisa.md)
 

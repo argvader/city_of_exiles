@@ -10,7 +10,7 @@ title: "Raasha Vaad"
 
 A Hadozi ("monkey person," as the party less-than-delicately put it) who oversees
 arcane affairs at the University of Sand alongside the war mage
-[Seris](seris.md). She and Seris held back a grave concern at the council out of
+[Seerus](seerus.md). She and Seerus held back a grave concern at the council out of
 fear for the school's reputation, until pressed: four promising students, all
 sharing an off-campus dorm, had vanished in the chaos of the attack — neither
 counted among the dead nor found alive. Their rooms held no trace of a struggle

@@ -17,7 +17,7 @@ nine or ten students and around fifteen guards fell defending it.
 [Holgren](../npcs/holgren.md), teaches here, and [Adarius](../pcs/adarius.md) has
 connections among its scholars — soon to be a student himself on the Empress's
 scholarship. Its arcane affairs are overseen by [Raasha Vaad](../npcs/raasha-vaad.md)
-and the war mage [Seris](../npcs/seris.md).
+and the war mage [Seerus](../npcs/seerus.md).
 
 ## The Missing Students
 
@@ -26,7 +26,7 @@ attack — neither among the dead nor found alive:
 
 - **Cassian** — human, evocation
 - **Celine** — half-elf, divination (a talented loner; Holgren's student)
-- **Varicash** — brass dragonborn, illusion
+- **Varrek Ashtongue** — brass dragonborn, illusion
 - **Calus** — tiefling, conjuration
 
 Their room showed no struggle and no detectable magic — because Celine had planted

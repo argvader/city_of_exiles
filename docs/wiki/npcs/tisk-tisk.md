@@ -14,11 +14,15 @@ history — Tisk takes one wary look at Payne before giving his report — but h
 proved a friend to the party in the end, sending them off with healing potions
 "with his regards" for their work in the marketplace. At the council he reported
 no significant losses at the Bazaar beyond ordinary looting, and named the guard
-[Charles Dammit](charles-dammit.md) as the one who fled the battle.
+[Charles Dammit](charles-dammit.md) as the one who fled the battle. Whatever lies
+between him and Payne, it is not finished: he pulled the man aside with a
+whispered offer — "once you're done here, I may have work for you, if you're
+interested."
 
 ## Session History
 
 - **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Gave his account of
-  the Bazaar to the council and flagged Charles Dammit's desertion. Later sent the
-  party five potions of greater healing — which proved to be all that kept them
-  alive in the students' dorm.
+  the Bazaar to the council and flagged Charles Dammit's desertion, then privately
+  propositioned Behnsun Payne for some unspecified job. Later sent the party five
+  potions of greater healing — which proved to be all that kept them alive in the
+  students' dorm.

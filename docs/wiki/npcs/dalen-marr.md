@@ -13,8 +13,9 @@ A rugged, older guard commander — one of the elder officers, and the man
 his ground at [the Water Temple](../locations/the-water-temple.md) and roaring at
 the attackers even when blinded by smoke: "I still see you, you pieces of shit."
 He knows the secret ways of the Jade Pyramid and the drow
-[Velra](velra.md) who keeps them, and answers up the chain to the guard leader
-[Karza Sunhorn](karza-sunhorn.md). In court he keeps his place, speaking only when
+[Velra Nighthollow](velra-nighthollow.md) who keeps them, and answers up the
+chain to the guard leader
+[Kharza Sunhorn](kharza-sunhorn.md). In court he keeps his place, speaking only when
 spoken to — though he can't help swaying when [Fizz](../pcs/fizz.md) plays.
 
 ## Session History

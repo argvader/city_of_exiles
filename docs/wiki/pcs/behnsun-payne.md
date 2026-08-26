@@ -33,7 +33,7 @@ ledger recording the party's stolen goods.
   explode.
 - **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Showed his Wild Magic
   sorcery, quickening chromatic orbs with metamagic. Danced with the drow
-  [Velra](../npcs/velra.md) and drew a private job offer from
-  [Salvatore Danilo](../npcs/salvatore-danilo.md). Spent the dorm ambush getting
+  [Velra Nighthollow](../npcs/velra-nighthollow.md) and drew a private job offer
+  from [Tisk Tisk](../npcs/tisk-tisk.md). Spent the dorm ambush getting
   repeatedly clobbered by flying books, then landed the fiery blow that finally
   melted the mimic.

@@ -21,6 +21,18 @@ A fish-like water Genasi. When the party found her at
 [the Water Temple](../locations/the-water-temple.md), her fingers were already
 burning from the assault.
 
+## What She Actually Is
+
+The city knows her as a holy woman who purifies its water — very nearly a saint —
+and knows nothing of her being here before the city was. The academy remembers
+otherwise. In the myth of [the Undying Flame](../factions/the-undying-flame.md),
+two powerful beings fought over an elven woman of the desert; the winner fathered
+a daughter on her, **half genie and half elf, with blue translucent skin**. That
+daughter is Naivara. Her father is the being in the amulet.
+
+She goes heavily robed in public, and for all the artwork of her, few people in
+Utsa Paradisa have ever really seen what she looks like.
+
 ## Session History
 
 - **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Ambushed at the Water
@@ -36,3 +48,6 @@ burning from the assault.
   specifically?
 - The [Amulet Speaker](the-amulet-speaker.md) is her father. What is he, and how
   did he come to be trapped in the teardrop?
+- If she was taken by her father's ancient rival rather than by anyone with an
+  interest in the water supply, then drying out the city was never the point —
+  only the cover.

@@ -37,3 +37,11 @@ ledger recording the party's stolen goods.
   from [Tisk Tisk](../npcs/tisk-tisk.md). Spent the dorm ambush getting
   repeatedly clobbered by flying books, then landed the fiery blow that finally
   melted the mimic.
+- **[The Undying Four](../../sessions/2026-09-02.md)** — Opened on the Undercroft's
+  wooden guardian with *true strike*, warned the party that psychic and charm magic
+  would be wasted on it, then ended it with an advantaged second-level *chromatic
+  orb* of fire, empowered with a sorcery point — 24 damage and a pile of ash. A
+  natural 20 studying the cult's suture fly corpses uncovered how the creatures are
+  controlled (a psychic link to an alpha), earning the **whole party a permanent +2
+  to attack rolls against suture flies**. Also, quietly and correctly, talked
+  [Prance](prance-galavant.md) out of drawing a cult sigil on their forged bait.

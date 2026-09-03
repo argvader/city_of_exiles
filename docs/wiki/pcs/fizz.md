@@ -38,3 +38,14 @@ fey vessel and its purposes.
   put a dagger to his throat and decided he "may be worth my time." His rapport
   spores even let him eavesdrop on the [Amulet Speaker](../npcs/the-amulet-speaker.md).
   Ended the dorm brawl by decomposing and eating the defeated books.
+- **[The Undying Four](../../sessions/2026-09-02.md)** — The session's schemer.
+  Identified the *potion of invisibility*, ate a jar of bat guano and learned from
+  it that the students were hoarding fire components, and — rather than report the
+  cult to a court he does not trust — devised the plan the campaign now turns on: a
+  **forged letter in the missing students' own voices**, luring whoever answers to
+  the Lucky Scorpion wearing a black bandana, signed *the Undying Four*. Read
+  [Holgren](../npcs/holgren.md) as genuine, posted a fake certificate notice to bait
+  out [Varrek Ashtongue](../npcs/varrek-ashtongue.md), and heard
+  [Frederick](../npcs/frederick.md) ask him why the glory has to be Prance's.
+  Admitted the honest answer: he is two years old, and books just beat him half to
+  death.

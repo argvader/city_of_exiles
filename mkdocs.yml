@@ -61,6 +61,7 @@ nav:
   - Sessions:
       - "1. The Tidewoven Amulet": sessions/2026-07-03.md
       - "2. The Vanished Scholars": sessions/2026-08-11.md
+      - "3. The Undying Four": sessions/2026-09-02.md
   - Wiki:
       - Player Characters:
           - wiki/pcs/adarius.md
@@ -90,8 +91,11 @@ nav:
           - wiki/npcs/salvatore-danilo.md
           - wiki/npcs/tirakar-sun.md
           - wiki/npcs/tisk-tisk.md
+          - wiki/npcs/celine.md
+          - wiki/npcs/varrek-ashtongue.md
       - Factions:
           - wiki/factions/city-guard-of-utsa-paradisa.md
+          - wiki/factions/the-undying-flame.md
       - Locations:
           - wiki/locations/utsa-paradisa.md
           - wiki/locations/the-slums.md
@@ -100,3 +104,5 @@ nav:
           - wiki/locations/the-water-temple.md
           - wiki/locations/the-university.md
           - wiki/locations/the-bazaar.md
+          - wiki/locations/the-undercroft.md
+          - wiki/locations/redstone-narrows.md

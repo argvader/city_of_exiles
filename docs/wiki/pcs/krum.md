@@ -35,3 +35,11 @@ known to the guard — he reports directly to the veteran commander
   gave him a Gorgon-backed bronze mirror that reveals his Phantom's spectral second
   self. Spent most of the dorm fight grappled in a mimic's tongue, dropped
   unconscious, and was hauled back by Prance's last *lay on hands*.
+- **[The Undying Four](../../sessions/2026-09-02.md)** — Rolled a natural 20 picking
+  through the wreckage of the mimic and found both the hatch to
+  [the Undercroft](../locations/the-undercroft.md) and a *potion of invisibility* —
+  then slept beside the hatch on cold stone, "a mountain dwarf, so the stone feels
+  good." Worked out that the glyph on the door meant someone had been close enough
+  to lay it while they slept. Defended his uncle [Holgren](../npcs/holgren.md)
+  against the whole table and lied to his face to keep him out of it, then had to
+  listen to his friends call the old man a suspect anyway.

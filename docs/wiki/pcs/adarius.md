@@ -39,3 +39,12 @@ Adarius is also said to have connections at [the University](../locations/the-un
   with a full University scholarship and a promise to rehouse his parents. The
   trapped room nearly killed him — smothered unconscious by an animated rug before
   [Fizz](fizz.md)'s healing word brought him back.
+- **[The Undying Four](../../sessions/2026-09-02.md)** — The party's researcher in
+  full: identified the party's new *potion of invisibility*, recalled from a
+  history check the myth of [the Undying Flame](../factions/the-undying-flame.md)
+  and what it means for [Naivara](../npcs/naivara-tidewoven.md)'s parentage, then
+  ritually cast *comprehend languages* to pull **the Redstone Narrows** out of the
+  cult's coded notes — the tar country where he was made to labour as a child.
+  Wore the remains of the murderous rug out as a poncho. Capped the day by
+  attempting to intimidate a message board with a natural 1, producing a notice so
+  badly misspelled the party wondered aloud how he got into the school.

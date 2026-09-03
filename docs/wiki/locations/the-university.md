@@ -29,9 +29,12 @@ attack — neither among the dead nor found alive:
 - **Varrek Ashtongue** — brass dragonborn, illusion
 - **Calus** — tiefling, conjuration
 
-Their room showed no struggle and no detectable magic — because Celine had planted
-**anti-divination devices** to mask everything within, and left animated guardians
-behind.
+Their room showed no struggle and no detectable magic — because
+[Celine](../npcs/celine.md) had planted **anti-divination devices** to mask
+everything within, and left animated guardians behind. Beneath the dorm's floor —
+a trapdoor under a desk — lies [the Undercroft](the-undercroft.md), where the four
+of them ran a cell of [the Undying Flame](../factions/the-undying-flame.md) under
+their professors' feet.
 
 ## Session History
 
@@ -42,3 +45,8 @@ behind.
   investigate the four missing students. They found Holgren battered among the dead,
   then entered the students' sealed dorm — where the diviner's animated guardians (a
   mimic, a swarm of flying books, and a smothering rug) nearly killed them all.
+- **[The Undying Four](../../sessions/2026-09-02.md)** — The party slept in the dead
+  students' beds, opened the hatch beneath the wreckage, and stripped the Undercroft.
+  They left through a glyph of warding laid on the door while they slept. The campus
+  above was still on its feet but hollow-eyed, with funeral services for the fallen
+  students and guards a few hours off.

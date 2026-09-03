@@ -71,3 +71,13 @@ oath to rescue the priestess, feeling "a spark of magic click" as he put it on.
   [Horace Steelwinter](../npcs/horace-steelwinter.md). In the dorm he called on the
   [Amulet Speaker](../npcs/the-amulet-speaker.md) for *armor of Agathys* and spent
   his final *lay on hands* to drag [Krum](krum.md) back from death.
+- **[The Undying Four](../../sessions/2026-09-02.md)** — Threw the Undercroft's
+  wooden guardian over his shoulder in a judo throw and pinned it, demanding it
+  tell him where the students had fled — then watched
+  [Behnsun](behnsun-payne.md) incinerate his only witness. Took the
+  [Amulet Speaker](../npcs/the-amulet-speaker.md)'s sigil-reading and its rebuke:
+  told that this is not a grand opera but a father's daughter, he answered that he
+  would rescue her *when it is most advantageous to my story* — and felt the
+  amulet's power weaken in his hand. Tried to blot the cult's sigil out with ink
+  while standing on Fizz's shoulders and put them both on the floor, black from ear
+  to tail. Healed Adarius with a Shakespearean sonnet.

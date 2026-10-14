@@ -43,3 +43,12 @@ known to the guard — he reports directly to the veteran commander
   to lay it while they slept. Defended his uncle [Holgren](../npcs/holgren.md)
   against the whole table and lied to his face to keep him out of it, then had to
   listen to his friends call the old man a suspect anyway.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Arrested the University's
+  elderly librarian, [Bartleby](../npcs/bartleby.md), on
+  [Prance](prance-galavant.md)'s word — "I am the authority" — and was promptly
+  threatened with his uncle. Made up for it by stabbing an invisible man twice,
+  at disadvantage, with both daggers, and later putting a crossbow bolt into him
+  mid-chase. Held [Varrek Ashtongue](../npcs/varrek-ashtongue.md) at crossbow-point
+  for questioning. His attempt to bluff two of his own fellow guards came up a 5.
+  When [Fizz](fizz.md) pressed for an execution, Krum was the flat no: *"We're not
+  killing anybody. We're not killing a kid."*

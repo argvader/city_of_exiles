@@ -36,6 +36,15 @@ a trapdoor under a desk — lies [the Undercroft](the-undercroft.md), where the 
 of them ran a cell of [the Undying Flame](../factions/the-undying-flame.md) under
 their professors' feet.
 
+## The Library
+
+A grand public library with tall double doors, a raised reading area up a short
+flight of steps, and more books than [Behnsun](../pcs/behnsun-payne.md) was
+willing to risk a *fire bolt* near. It is kept by the elderly librarian
+[Bartleby](../npcs/bartleby.md). Student clubs are not its business — those go
+through the Administration Building — and its lending records are not opened
+without a writ from a captain of the guard.
+
 ## Session History
 
 - **[The Tidewoven Amulet](../../sessions/2026-07-03.md)** — Reported intact by
@@ -50,3 +59,8 @@ their professors' feet.
   They left through a glyph of warding laid on the door while they slept. The campus
   above was still on its feet but hollow-eyed, with funeral services for the fallen
   students and guards a few hours off.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — The party staked out the
+  library ahead of the two o'clock funeral services, roughed up its librarian,
+  and fought and captured the invisible
+  [Varrek Ashtongue](../npcs/varrek-ashtongue.md) among the stacks before chasing
+  him out into the city streets. A student put the previous day's dead at twelve.

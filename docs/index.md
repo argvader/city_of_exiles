@@ -66,3 +66,4 @@ and the exiles are only just stepping into it.
 | 1 | [The Tidewoven Amulet](sessions/2026-07-03.md) | July 3, 2026 |
 | 2 | [The Vanished Scholars](sessions/2026-08-11.md) | August 11, 2026 |
 | 3 | [The Undying Four](sessions/2026-09-02.md) | September 2, 2026 |
+| 4 | [Varrek's Very Bad Day](sessions/2026-10-13.md) | October 13, 2026 |

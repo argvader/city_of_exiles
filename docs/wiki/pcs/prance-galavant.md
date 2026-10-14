@@ -81,3 +81,15 @@ oath to rescue the priestess, feeling "a spark of magic click" as he put it on.
   amulet's power weaken in his hand. Tried to blot the cult's sigil out with ink
   while standing on Fizz's shoulders and put them both on the floor, black from ear
   to tail. Healed Adarius with a Shakespearean sonnet.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Wore the black bandana (two
+  of them) to the library, accused the librarian [Bartleby](../npcs/bartleby.md)
+  of running a death cult, had him arrested, and then apologised on behalf of a
+  special task force that had saved the city "a little twice." Barred the library
+  doors with his own body, stopped [Varrek Ashtongue](../npcs/varrek-ashtongue.md)'s
+  escape with an athletics check of 23, and grappled him into custody; flattered
+  the prisoner's laugh into an offer of friendship. In the street chase he
+  rabbit-hopped ahead and caught the invisible dragonborn blind, holding on while
+  his ears were pulled apart and one hit point short of falling asleep himself.
+  Felt the amulet thrum at the word *revenge*. Refused to have Varrek killed —
+  partly on principle, mostly because an enemy who knows they are coming makes
+  for a greater final chapter.

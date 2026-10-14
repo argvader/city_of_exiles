@@ -45,3 +45,14 @@ ledger recording the party's stolen goods.
   controlled (a psychic link to an alpha), earning the **whole party a permanent +2
   to attack rolls against suture flies**. Also, quietly and correctly, talked
   [Prance](prance-galavant.md) out of drawing a cult sigil on their forged bait.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Refused to throw fire in a
+  library ("I like books") and sent *mage hand* to investigate a suspicious table
+  instead. Found the invisible [Varrek Ashtongue](../npcs/varrek-ashtongue.md) by
+  walking into him, and earned an inspiration for pointing out that two dagger
+  wounds ought to have broken the dragonborn's concentration. Searched the
+  prisoner's pockets, hit him with a fifteen-point *chromatic orb* in the chase,
+  and offered to hide him under *invisibility* on the way to the council. When
+  [Krum](krum.md)'s lie to the guards fell flat, he produced juggling balls from
+  nowhere, rolled a 19 on performance, and mesmerised two tabaxi into watching
+  the street instead. Talked the party out of killing the prisoner on practical
+  grounds: the guards had seen them chase him.

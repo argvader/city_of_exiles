@@ -25,3 +25,10 @@ districts by their fingernails.
   died in numbers across the Slums and the Water Temple, several withering to the
   thirsters' drought. The survivors, aided by the party, held the city — though
   they could not stop the priestess's abduction.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Two tabaxi guards answered
+  the University librarian's call, opened the library doors at exactly the wrong
+  moment, and gave a captured cultist the gap he needed to escape. They caught up
+  to the party afterwards, did not believe [Krum](../pcs/krum.md)'s account of
+  events, and were then distracted by juggling and posted to watch the street.
+  They saw the party chase a student through the city, and they heard the
+  librarian's version first.

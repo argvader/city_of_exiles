@@ -29,14 +29,30 @@ let it go. He's always been jealous of me and my lover."*
 If that is right, the abduction of the water priestess is not a raid on the
 city's water supply. It is the last move in a grudge older than the city.
 
+## Leadership
+
+The cult answers to **[Sicovax](../npcs/sicovax.md)**, who resides somewhere
+beyond an entrance in [the Redstone Narrows](../locations/redstone-narrows.md).
+His purpose in taking the priestess, by a captured member's own word, is
+**revenge** — and the Amulet Speaker takes him to be the old rival of the myth.
+
+Members do not speak of him freely. When
+[Varrek Ashtongue](../npcs/varrek-ashtongue.md) was compelled to, fire burned in
+his mouth and he coughed blood.
+
 ## Known Cell
 
-- **Cassian** — evocation.
+- **Cassian** — evocation. Whereabouts unknown; believed fled.
 - **[Celine](../npcs/celine.md)** — divination; warded the dorm against every
-  scrying eye that might have caught them.
+  scrying eye that might have caught them. Whereabouts unknown; believed fled.
 - **[Varrek Ashtongue](../npcs/varrek-ashtongue.md)** — illusion; left the glyph
-  of warding that nearly killed the party on their way out.
-- **Calus** — conjuration.
+  of warding that nearly killed the party on their way out. **Captured** by the
+  party.
+- **Calus** — conjuration. Whereabouts unknown; believed fled.
+
+The four never called themselves "the Undying Four" — that was the party's
+invention for a forged letter. To Varrek they are simply members of the Undying
+Flame.
 
 One master of each school taught at [the University](../locations/the-university.md),
 and not one of them a necromancer — the only school the city forbids.
@@ -48,3 +64,9 @@ and not one of them a necromancer — the only school the city forbids.
   [the Redstone Narrows](../locations/redstone-narrows.md), and the legend behind
   the name. The party chose not to tell the Empress's court — and instead forged
   a letter in the cult's own voice, signed *the Undying Four*.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — The party captured
+  [Varrek Ashtongue](../npcs/varrek-ashtongue.md) and, under *suggestion*, got the
+  cult's leader ([Sicovax](../npcs/sicovax.md)), his motive (revenge), and what
+  the Narrows are (the way in). They also learned that the cult's members cannot
+  easily speak of it, and that "the Undying Four" was never a name the students
+  used.

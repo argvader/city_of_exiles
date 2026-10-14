@@ -48,3 +48,13 @@ Adarius is also said to have connections at [the University](../locations/the-un
   Wore the remains of the murderous rug out as a poncho. Capped the day by
   attempting to intimidate a message board with a natural 1, producing a notice so
   badly misspelled the party wondered aloud how he got into the school.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Lost the coin-flip vote to
+  go to the council first and was called a nerdy little wizard for it. In the
+  library he tried to end the fight gently — "Lad, the intent isn't to kill you" —
+  with a *charm person* that met a natural 20. In the street chase he put a *fire
+  bolt* down an alley into [Varrek Ashtongue](../npcs/varrek-ashtongue.md), who
+  knew him: *"Adarius, is that you, boy?"* Stood ready with a bottle of ink to
+  mark the invisible man, then argued for the plan the party adopted — show the
+  council the letter, keep the prisoner out of sight, and watch the room for a
+  flicker of recognition. As the party's wizard, he has the job of guarding
+  Varrek. *(Josh was away; Gary played Adarius for the session.)*

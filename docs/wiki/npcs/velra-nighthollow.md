@@ -26,3 +26,9 @@ affection, appraisal, or a warning, not even Fizz can tell.
 - **[The Vanished Scholars](../../sessions/2026-08-11.md)** — Escorted the party
   into the Jade Pyramid and through its maze to the Empress, kept a knife-edged eye
   on the council, and began a wary, flirtatious game of cat-and-mouse with Fizz.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Not present, but chosen. Unable
+  to agree on what to do with their prisoner
+  [Varrek Ashtongue](varrek-ashtongue.md), the party settled on handing him to
+  Velra after the council meeting — on [Fizz](../pcs/fizz.md)'s reasoning that the
+  councillor who trusts no one is the one least likely to be the cult's informant,
+  and the one most likely to know how to hold an illusionist.

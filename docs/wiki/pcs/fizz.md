@@ -49,3 +49,16 @@ fey vessel and its purposes.
   [Frederick](../npcs/frederick.md) ask him why the glory has to be Prance's.
   Admitted the honest answer: he is two years old, and books just beat him half to
   death.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Carried the session and
+  burned most of his spell slots doing it. Paid a student a gold piece to be
+  searched, opened on [Varrek Ashtongue](../npcs/varrek-ashtongue.md) with a
+  *vicious mockery* about student hygiene, and talked the dragonborn's fire
+  breath back down with a persuasion of 22 at disadvantage. His *suggestion* is
+  what finally produced the name [Sicovax](../npcs/sicovax.md) — and a mouthful of
+  blood across his face. In the chase his first *sleep* fell short and his second,
+  a 31, dropped Varrek in [Prance](prance-galavant.md)'s arms. Then he argued,
+  three different ways, that the prisoner should be killed in the alley before a
+  traitor on the council could free him, and offered to do it himself. He lost
+  the argument and proposed [Velra Nighthollow](../npcs/velra-nighthollow.md) as
+  the jailer instead. Wonders whether reading everyone's minds is making him
+  cynical — or whether it is mother's magic.

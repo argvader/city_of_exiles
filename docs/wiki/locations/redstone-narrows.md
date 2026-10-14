@@ -28,3 +28,9 @@ long before either of them met.
   legible phrase in the students' coded notes, deciphered by Adarius under
   *comprehend languages*. The party agreed to go — and agreed just as quickly to
   tell the Empress's court nothing about it.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — No longer just a phrase in a
+  coded note. Under *suggestion*, the captured cultist
+  [Varrek Ashtongue](../npcs/varrek-ashtongue.md) said the Narrows are *"where the
+  entrance to where Sicovax resides is"* — the way in to the lair of
+  [the Undying Flame](../factions/the-undying-flame.md)'s leader. The party still
+  means to keep the location from the council.

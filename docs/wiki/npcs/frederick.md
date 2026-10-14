@@ -40,3 +40,8 @@ anything else he has heard.
   *"Don't let Prance take control. Why does it have to be his tale of glory? Why
   can't it be yours?"* — and, snubbed over the party's name, flopped onto his side
   and sulked.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Kept up the campaign. After
+  [Fizz](../pcs/fizz.md)'s spell put the fleeing cultist to sleep, Frederick asked
+  again why the rabbit gets to be the hero of every tale — *"It should be you. I
+  feel like you saved the day"* — and slumped back onto his side in Fizz's pocket.
+  Fizz told him their time to shine would come.

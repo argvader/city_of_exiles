@@ -41,6 +41,11 @@ Utsa Paradisa have ever really seen what she looks like.
   tore a gold teardrop amulet from her chest and dropped it — deliberately —
   onto [Prance Galavant](../pcs/prance-galavant.md)'s ear. The amulet holds a
   trapped fey being who calls her "my daughter" and begs the party to save her.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Still missing. A
+  captured cultist taunted the party about "that little blue girl" and, under
+  compulsion, gave the reason she was taken: **revenge**, on the orders of
+  [Sicovax](sicovax.md), whose lair is entered through
+  [the Redstone Narrows](../locations/redstone-narrows.md).
 
 ## Open Threads
 

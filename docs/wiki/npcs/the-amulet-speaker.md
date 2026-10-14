@@ -56,3 +56,10 @@ belongs to the one who lost.
   This is my daughter."* When Prance answered that he would save her at the moment
   most advantageous to the story, the amulet's magic pulsed once and **weakened**.
   Its power, it warned, comes at the price of making the daughter the priority.
+- **[Varrek's Very Bad Day](../../sessions/2026-10-13.md)** — Thrummed against
+  [Prance](../pcs/prance-galavant.md)'s chest when the captured cultist said what
+  his master wants with Naivara: *revenge*. Given the name
+  **[Sicovax](sicovax.md)**, the Speaker took it for his old rival — *"Me and the
+  woman we competed over, we sired Naivara. He's jealous that I won her heart"* —
+  which Prance received as the greatest love story of all time, with a heroic
+  rabbit in it.
